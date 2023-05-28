@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" 
+	backgroundGradientAlphas="[1.0, 1.0]" backgroundGradientColors="[#333333, #333333]" preloader="Preloader">
+	
+	<mx:Script>
+		<![CDATA[
+			[Embed(source="image.jpg")]
+			private var file:Class;
+			[Bindable]
+			private var image:Bitmap = new file();
+		]]>
+	</mx:Script>
+	
+	<mx:Image source="{image}" x="10" y="10" width="707" height="337"/>
+	
+</mx:Application>

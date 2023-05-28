@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+	
+	<mx:Style source="styles.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.rpc.events.ResultEvent;
+			import mx.collections.ArrayCollection;
+			
+			[Bindable]
+			private var ac:ArrayCollection;
+			
+			private function doSearch(e:MouseEvent):void
+			{
+				service.url = "http://search.twitter.com/search.atom?q=" + search.text;
+				service.send();
+			}
+			
+			private function onResult(e:ResultEvent):void
+			{
+				ac = e.result.feed.entry as ArrayCollection;
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:HTTPService result="onResult(event)" id="service"/>
+	<mx:TextInput right="83" left="10" top="10" id="search"/>
+	<mx:Button label="Search" click="doSearch(event)" right="10" top="10"/>
+	<mx:List dataProvider="{ac}" itemRenderer="Tweet" bottom="10" left="10"
+		 right="10" top="40" id="list"></mx:List>
+	
+</mx:Application>

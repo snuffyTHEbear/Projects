@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+
+	<mx:Script>
+		<![CDATA[
+			import com.facebook.data.users.FacebookUser;
+			import com.facebook.data.users.GetInfoData;
+			import com.facebook.commands.users.GetInfo;
+			import com.facebook.net.FacebookCall;
+			import mx.events.CloseEvent;
+			import mx.controls.Alert;
+			import com.facebook.events.FacebookEvent;
+			import com.facebook.utils.FacebookSessionUtil;
+			
+			public var facebookSession:FacebookSessionUtil;
+			
+			private function login():void
+			{
+				facebookSession = new FacebookSessionUtil("80081e3a83b76aed5687f7bb4753d25f", "2a3e0f70cb25b8cd678c6512d3ee8534", stage.loaderInfo);
+				facebookSession.addEventListener(FacebookEvent.WAITING_FOR_LOGIN, waitingForLogin_Handler);
+				facebookSession.addEventListener(FacebookEvent.CONNECT, connect_Handler);
+				facebookSession.login();
+			}
+			
+			private function waitingForLogin_Handler(e:FacebookEvent):void
+			{
+				var alert:Alert = Alert.show("Click Ok when logged in", "Logging In");
+				alert.addEventListener(Event.CLOSE, close_Handler);
+			}
+			
+			private function connect_Handler(e:FacebookEvent):void
+			{
+				var call:FacebookCall = facebookSession.facebook.post(new GetInfo([facebookSession.facebook.uid],['name', 'pic_square']));
+				call.addEventListener(FacebookEvent.COMPLETE, complete_Handler);
+			}
+			
+			private function complete_Handler(e:FacebookEvent):void
+			{
+				var getInfo:GetInfoData = e.data as GetInfoData;
+				var user:FacebookUser = getInfo.userCollection.getItemAt(0) as FacebookUser;
+				userAvatar.source = user.pic_square;
+				userName.text = user.name;
+			}
+			
+			private function close_Handler(e:Event):void
+			{
+				facebookSession.validateLogin();
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Button x="10" y="10" label="Login" click="login()"/>
+	<mx:Image id="userAvatar" x="74" y="10" width="50" height="50"/>
+	<mx:Label id="userName" x="132" y="12" text="Label"/>
+	
+</mx:Application>

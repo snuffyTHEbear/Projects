@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Adobe Systems Incorporated(r) Source Code License Agreement
+Copyright(c) 2005 Adobe Systems Incorporated. All rights reserved.
+
+Please read this Source Code License Agreement carefully before using
+the source code.
+
+Adobe Systems Incorporated grants to you a perpetual, worldwide, non-exclusive, 
+no-charge, royalty-free, irrevocable copyright license, to reproduce,
+prepare derivative works of, publicly display, publicly perform, and
+distribute this source code and such derivative works in source or 
+object code form without any attribution requirements.  
+
+The name "Adobe Systems Incorporated" must not be used to endorse or promote products
+derived from the source code without prior written permission.
+
+You agree to indemnify, hold harmless and defend Adobe Systems Incorporated from and
+against any loss, damage, claims or lawsuits, including attorney's 
+fees that arise or result from your use or distribution of the source 
+code.
+
+THIS SOURCE CODE IS PROVIDED "AS IS" AND "WITH ALL FAULTS", WITHOUT 
+ANY TECHNICAL SUPPORT OR ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  ALSO, THERE IS NO WARRANTY OF 
+NON-INFRINGEMENT, TITLE OR QUIET ENJOYMENT.  IN NO EVENT SHALL ADOBE 
+OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOURCE CODE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<s:WindowedApplication
+	xmlns:fx="http://ns.adobe.com/mxml/2009"
+	xmlns:mx="library://ns.adobe.com/flex/mx"
+	xmlns:s="library://ns.adobe.com/flex/spark"	
+	width="934" height="836" 	
+	creationComplete="myInit()">
+	
+	<s:layout>
+		<s:HorizontalLayout paddingLeft="20" paddingTop="10" paddingBottom="20" paddingRight="20" gap="15"/>	
+	</s:layout>
+
+	<fx:Script>
+		<![CDATA[			
+			import flash.system.Capabilities;
+			
+			import flashx.textLayout.conversion.TextConverter;
+			import flashx.textLayout.elements.TextFlow;
+			
+			import mx.collections.ArrayCollection;
+			import mx.collections.ICollectionView;
+			import mx.controls.Alert;
+			import mx.managers.PopUpManager;
+			import mx.resources.Locale;
+			
+			import spark.utils.TextFlowUtil;
+			
+			private var printJob:PrintJob;
+			private var printUIOptions:PrintUIOptions;
+			private var updatingForm:Boolean = false;	// to prevent infinite recursion during update
+			
+			[Bindable] private var lastError:String = "";
+			[Bindable] private var printersData:ArrayCollection;
+			[Bindable] public var paperData:ArrayCollection = new ArrayCollection([
+				{label:"Letter", data:"letter", w:612, h:792},
+				{label:"Legal", data:"legal", w:612, h:1008},
+				{label:"A4", data:"a4", w:595, h:842},
+				{label:"A5", data:"a5", w:420, h:595},
+				{label:"A6", data:"a6", w:297, h:420},
+				{label:"B5 (Japan)", data:"jis_b5", w:516, h:729},
+				{label:"B5 Envelope", data:"env_b5", w:499, h:709},
+				{label:"#10 Envelope", data:"env_10", w:297, h:684},
+				{label:"Monarch Envelope", data:"env_monarch", w:279, h:540},
+				{label:"(Other)", data:"OTHER", w:0, h:0} ]);
+			
+			/**
+			 * Called when the application initializes. Populates the various lists and does the initial update of the page.
+			 **/
+			private function myInit():void
+			{
+				// initialize the printer list
+				var printerList:Vector.<String> = PrintJob.printers;
+				var p:ArrayCollection = new ArrayCollection();
+				for (var i:int = 0; i < printerList.length; i++)
+				{
+					p.addItem(printerList[i]);
+				}
+				this.printersData = p;
+				
+				// initialize the (optional) ui options
+				this.printUIOptions = new PrintUIOptions();
+				this.printUIOptions.disablePageRange = true;
+
+				// initialize the print job
+				this.printJob = new PrintJob();
+				
+				updateForm();
+				updateThePage();
+				updateTheWindow();				
+			}
+			
+			/**
+			 * Updates the internal printJob object when the user selects a new printer, and refreshes the layout.
+			 **/ 
+			private function printerChanged():void
+			{
+				try 
+				{
+					lastError = "";
+					if (printJob)
+					{
+						printJob.printer = formPrinters.selectedItem.toString();
+						updateOrientation();
+						updateForm();
+						updateThePage();
+						updateTheWindow();
+					}
+				}
+				catch (err:Error) 
+				{
+					lastError = err.message;
+					displayError(err.message);
+				}
+			}
+			
+			/**
+			 * Updates the internal printJob object when the user selects a new paper size, and refreshes the layout.
+			 **/
+			private function paperChanged():void
+			{
+				try 
+				{
+					lastError = "";
+					if (printJob)
+					{
+						var selection:String = formPaper.selectedItem.data;
+						if (selection != "OTHER")
+						{
+							printJob.selectPaperSize(selection);
+						}
+						updateForm();
+						updateThePage();
+						updateTheWindow();
+					}
+				}
+				
+				catch (err:Error) 
+				{
+					lastError = err.message;
+					displayError(err.message);
+				}
+			}
+			
+			/**
+			 * Approximates equality between two Numbers by determining if they're within a predetermined threshold (currently between +-1.5).
+			 * 
+			 * @param v1 The first Number
+			 * @param v2 The second Number
+			 * 
+			 * @return A Boolean indicating whether the difference between the two numbers is within a predetermined threshold
+			 * 
+			 * @see updatePaperSelection()
+			 **/
+			private function approxEq(v1:Number, v2:Number):Boolean
+			{
+				var diff:Number = v1 - v2;
+				return diff > -1.5 && diff < 1.5;
+			}
+			
+			/**
+			 * Takes a width in pixels and converts it to inches, assuming a resolution of 72 PPI. 
+			 * 
+			 * @param n A Number of pixels
+			 * 
+			 * @return A String displaying the measurement in inches to two significant figures (without rounding), with " in" appended
+			 **/
+			private function measToString(n:Number):String
+			{
+				return (n/72).toFixed(2) + " in";
+			}
+			
+			/**
+			 * Sets the formPaper ComboBox's selection based on the width and height parameters specified in printJob's paperArea Object. 
+			 * A selection is made in the ComboBox if the width and height specified are within some bounds (an exact match isn't necessary).
+			 * If there are multiple matches within these bounds, the first item to appear in the ComboBox that matches will be selected.
+			 * 
+			 * @see approxEq(v1:Number, v2:Number):Boolean
+			 **/
+			private function updatePaperSelection():void
+			{
+				var w:Number = printJob.paperArea.width;
+				var h:Number = printJob.paperArea.height;
+				if (printJob.orientation == PrintJobOrientation.LANDSCAPE)
+				{	
+					// swap w,h for landscape
+					var t:Number = w;
+					w = h;
+					h = t;
+				}
+				var i:int;
+				// Loop to length-1 because last item in list is "Other", and we
+				// want the index to be "other" if there is no match.
+				for (i = 0; i < paperData.length - 1; i++)
+				{
+					var paper:Object = paperData.getItemAt(i);
+					if (approxEq(w, paper.w) && approxEq(h, paper.h))
+						break;
+				}
+				formPaper.selectedIndex = i;
+			}
+			
+			/**
+			 * Updates the UI to display relevant parameters relating to the print job.
+			 **/			
+			private function updateForm():void
+			{
+				if (!updatingForm)
+				{
+					updatingForm = true;
+					lastError = "";
+					
+					if (printJob)
+					{
+						try 
+						{
+							formJobName.text = printJob.jobName;
+							
+							formPaperWidth.text = measToString(printJob.paperArea.width);
+							formPaperHeight.text = measToString(printJob.paperArea.height);
+							
+							formMarginLeft.text = measToString(printJob.printableArea.left);
+							formMarginTop.text = measToString(printJob.printableArea.top);
+							formMarginRight.text = measToString(printJob.paperArea.right - printJob.printableArea.right);
+							formMarginBottom.text = measToString(printJob.paperArea.bottom - printJob.printableArea.bottom);
+							
+							formMaxPixelsPerInch.text = String(printJob.maxPixelsPerInch) + " ppi";
+							formIsColor.text = printJob.isColor ? "Yes" : "No";
+							formFirstPage.text = String(printJob.firstPage);
+							formLastPage.text = String(printJob.lastPage);
+							formCopies.text = String(printJob.copies);
+							formPrinters.selectedItem = String(printJob.printer);
+							updatePaperSelection();
+						}
+						catch (err:Error) 
+						{
+							this.lastError += err.message + "\n";
+							displayError(err.message);
+						}
+					}
+					updatingForm = false;
+				}
+			}
+			
+			/**
+			 * Updates the UI by selecting the proper orientation RadioButton, based on the printJob's orientation parameter. 
+			 **/			
+			private function updateOrientation():void
+			{
+				if (printJob.orientation == PrintJobOrientation.LANDSCAPE)
+					orientationLandscape.selected = true;
+				else
+					orientationPortrait.selected = true;
+			}			
+			
+			/**
+			 * Changes the width and height bounds of the thePage and thePrintableArea Objects, based on the printJob's width and height parameters.  
+			 **/
+			private function updateThePage():void
+			{
+				thePage.width = int(printJob.paperArea.width);
+				thePage.height = int(printJob.paperArea.height);
+				thePrintableArea.x = int(printJob.printableArea.left);
+				thePrintableArea.y = int(printJob.printableArea.top);
+				thePrintableArea.width = int(printJob.printableArea.width);				
+				thePrintableArea.height = int(printJob.printableArea.height);				
+			}			
+						
+			/**
+			 * Resizes the window's width and height, based on the bounds calculated by the controls and thePage. 
+			 * The window is resized such that it will attempt to display the entire printable area and the controls, and will scale back down if possible.			 
+			 **/
+			private function updateTheWindow():void
+			{
+				const __WIDTH_PADDING:int = 50;
+				const __HEIGHT_PADDING:int = 50;
+				this.width = controlsGroup.width + thePage.width + __WIDTH_PADDING;				
+				this.height = (thePage.height > controlsGroup.minHeight ) ? thePage.height + __HEIGHT_PADDING : controlsGroup.minHeight + __HEIGHT_PADDING;
+			}
+			
+			/**
+			 * Sets the printJob's orientation and triggers a UI refresh.
+			 * 
+			 * @param orient Describes the orientation. PrintJobOrientation.LANDSCAPE or PrintJobOrientation.PORTRAIT are recognized values
+			 **/
+			private function doOrientation(orient:String):void
+			{				
+				try 
+				{
+					lastError = "";
+					printJob.orientation = orient;
+					updateForm();
+					updateThePage();
+					updateTheWindow();
+				}
+				catch (err:Error) 
+				{
+					lastError = err.message;
+					displayError(err.message);
+				}
+			}
+			
+			/**
+			 * Calls printJob.showPageSetupDialog(), and updates the UI afterwards.
+			 **/
+			private function doPageSetupDialog():void
+			{
+				try 
+				{
+					lastError = "";
+					printJob.showPageSetupDialog();
+					updateOrientation();
+					updateForm();
+					updateThePage();
+					updateTheWindow();
+				}
+				catch (err:Error) 
+				{
+					lastError = err.message;
+					displayError(err.message);
+				}
+			}
+			
+			/**
+			 * Starts the printing process, passing in a single page made up of thePrintableArea, then updates the UI.  
+			 * 
+			 * @param showUI Sets whether to display the system print dialog or not 
+			 **/			
+			private function doPrint(showUI:Boolean):void
+			{				
+				var success:Boolean = printJob.start2(disablePageRange.selected ? this.printUIOptions : null, showUI); 
+				if (!success) return;
+
+				var pjo:PrintJobOptions = new PrintJobOptions;
+				
+				if (methodBitmap.selected)
+					pjo.printMethod = PrintMethod.BITMAP;
+				else if (methodVector.selected)
+					pjo.printMethod = PrintMethod.VECTOR;
+				else
+					pjo.printMethod = PrintMethod.AUTO;
+				
+				if (printJob.maxPixelsPerInch > 600)
+					pjo.pixelsPerInch = 600;
+				printJob.addPage(thePrintableArea, null, pjo);				
+				printJob.send();
+				updateForm();
+				updateThePage();
+				updateTheWindow();				
+			}
+			
+			/**
+			 * Displays a Flex Alert dialog with an "OK" button and a title of "There was an error." 
+			 * 
+			 * @param errorText The text to display 
+			 */
+			private function displayError(errorText:String):void
+			{
+				Alert.show(errorText, "There was an error");
+			}
+		]]>
+	</fx:Script>	
+
+	<fx:Declarations>
+		<s:RadioButtonGroup id="orientationGroup" />
+		<s:RadioButtonGroup id="methodGroup" />
+
+		<fx:String id="emmaExcerpt"><![CDATA[
+			<p><span fontWeight="bold" textDecoration="underline">EMMA</span></p>
+			<p><span fontStyle="italic">by Jane Austen</span></p>
+			<p><span fontWeight="bold">Chapter 1</span></p>
+			<p>Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her.</p>	
+			<p>She was the youngest of the two daughters of a most affectionate, indulgent father; and had, in consequence of her sister's marriage, been mistress of his house from a very early period.  Her mother had died too long ago for her to have more than an indistinct remembrance of her caresses; and her place had been supplied by an excellent woman as governess, who had fallen little short of a mother in affection.</p>
+			<p>Sixteen years had Miss Taylor been in Mr. Woodhouse's family, less as a governess than a friend, very fond of both daughters, but particularly of Emma.  Between <span fontStyle="italic">them</span> it was more the intimacy of sisters.  Even before Miss Taylor had ceased to hold the nominal office of governess, the mildness of her temper had hardly allowed her to impose any restraint; and the shadow of authority being now long passed away, they had been living together as friend and friend very mutually attached, and Emma doing just what she liked; highly esteeming Miss Taylor's judgment, but directed chiefly by her own.</p>
+			<p>The real evils, indeed, of Emma's situation were the power of having rather too much her own way, and a disposition to think a little too well of herself; these were the disadvantages which threatened alloy to her many enjoyments.  The danger, however, was at present so unperceived, that they did not by any means rank as misfortunes with her.</p>
+			<p>Sorrow came--a gentle sorrow--but not at all in the shape of any disagreeable consciousness.--Miss Taylor married.  It was Miss Taylor's loss which first brought grief.  It was on the wedding-day of this beloved friend that Emma first sat in mournful thought of any continuance.  The wedding over, and the bride-people gone, her father and herself were left to dine together, with no prospect of a third to cheer a long evening.  Her father composed himself to sleep after dinner, as usual, and she had then only to sit and think of what she had lost.</p>
+			<p>The event had every promise of happiness for her friend.  Mr. Weston was a man of unexceptionable character, easy fortune, suitable age, and pleasant manners; and there was some satisfaction in considering with what self-denying, generous friendship she had always wished and promoted the match; but it was a black morning's work for her.  The want of Miss Taylor would be felt every hour of every day.  She recalled her past kindness--the kindness, the affection of sixteen years--how she had taught and how she had played with her from five years old--how she had devoted all her powers to attach and amuse her in health--and how nursed her through the various illnesses of childhood.  A large debt of gratitude was owing here; but the intercourse of the last seven years, the equal footing and perfect unreserve which had soon followed Isabella's marriage, on their being left to each other, was yet a dearer, tenderer recollection.  She had been a friend and companion such as few possessed: intelligent, well-informed, useful, gentle, knowing all the ways of the family, interested in all its concerns, and peculiarly interested in herself, in every pleasure, every scheme of hers--one to whom she could speak every thought as it arose, and who had such an affection for her as could never find fault.</p> 
+			<p>How was she to bear the change?--It was true that her friend was going only half a mile from them; but Emma was aware that great must be the difference between a Mrs. Weston, only half a mile from them, and a Miss Taylor in the house; and with all her advantages, natural and domestic, she was now in great danger of suffering from intellectual solitude.  She dearly loved her father, but he was no companion for her.  He could not meet her in conversation, rational or playful.</p>
+			<p>The evil of the actual disparity in their ages (and Mr. Woodhouse had not married early) was much increased by his constitution and habits; for having been a valetudinarian all his life, without activity of mind or body, he was a much older man in ways than in years; and though everywhere beloved for the friendliness of his heart and his amiable temper, his talents could not have recommended him at any time.</p>
+			<p>Her sister, though comparatively but little removed by matrimony, being settled in London, only sixteen miles off, was much beyond her daily reach; and many a long October and November evening must be struggled through at Hartfield, before Christmas brought the next visit from Isabella and her husband, and their little children, to fill the house, and give her pleasant society again.</p>
+			]]>
+		</fx:String>
+	</fx:Declarations>
+	
+	
+	<s:VGroup id="controlsGroup" height="100%" minHeight="550">
+		<s:HGroup verticalAlign="middle">
+			<s:Label width="80" text="Select printer:" /> 
+			<s:ComboBox id="formPrinters" width="185" dataProvider="{printersData}" change="printerChanged()" /> 	
+		</s:HGroup>
+		<s:HGroup verticalAlign="middle">
+			<s:Label width="80" text="Select paper:" />
+			<s:ComboBox id="formPaper" width="185" dataProvider="{paperData}" change="paperChanged()" />			
+		</s:HGroup>
+		<s:HGroup verticalAlign="bottom">
+			<s:Label width="80" text="Orientation:" />			
+			<s:RadioButton label="Portrait" id="orientationPortrait" groupName="orientationGroup" width="60" selected="true" click="doOrientation(PrintJobOrientation.PORTRAIT)" />
+			<s:RadioButton label="Landscape" id="orientationLandscape" groupName="orientationGroup" click="doOrientation(PrintJobOrientation.LANDSCAPE)" />
+		</s:HGroup>
+		<s:HGroup verticalAlign="bottom">
+			<s:Label width="80" text="Print method:" />
+			<s:RadioButton label="Vector" id="methodVector" groupName="methodGroup" width="60" />
+			<s:RadioButton label="Bitmap" id="methodBitmap" groupName="methodGroup" />
+			<s:RadioButton label="Auto" id="methodAuto" groupName="methodGroup" selected="true" />
+		</s:HGroup>
+		
+		<s:CheckBox label="Watermark" id="watermarkCheckbox" selected="true" click="draftText.visible = watermarkCheckbox.selected" />	
+		<s:CheckBox label="Disable page range" id="disablePageRange" />
+		
+		<mx:Form indicatorGap="6">
+			<mx:FormItem label="Paper width:"> <s:RichText id="formPaperWidth" text="" />	</mx:FormItem>
+			<mx:FormItem label="Paper height:"> <s:RichText id="formPaperHeight" text="" /> </mx:FormItem>
+			<mx:FormItem label="Left margin:"> <s:RichText id="formMarginLeft" text="" /> </mx:FormItem>
+			<mx:FormItem label="Top margin:"> <s:RichText id="formMarginTop" text="" /> </mx:FormItem>
+			<mx:FormItem label="Right margin:"> <s:RichText id="formMarginRight" text="" /> </mx:FormItem>
+			<mx:FormItem label="Bottom margin:"> <s:RichText id="formMarginBottom" text="" /> </mx:FormItem>
+			
+			<mx:FormItem label="Printer resolution:"> <s:RichText id="formMaxPixelsPerInch" text="" /> </mx:FormItem>
+			<mx:FormItem label="Color:"> <s:RichText id="formIsColor" text="" /> </mx:FormItem>
+			<mx:FormItem label="First page:"> <s:RichText id="formFirstPage" text="" /> </mx:FormItem>
+			<mx:FormItem label="Last page:"> <s:RichText id="formLastPage" text="" /> </mx:FormItem>
+			<mx:FormItem label="Copies:"> <s:RichText id="formCopies" text="" /> </mx:FormItem>	
+			<mx:FormItem label="Job name:"> <s:RichText id="formJobName" text="" /> </mx:FormItem>
+		</mx:Form>
+
+		<s:HGroup gap="10">
+			<s:Button label="Page Setup" height="40" click="doPageSetupDialog()" />
+			<s:Button label="Print" height="40" click="doPrint(true)" />
+			<s:Button label="Print - No UI" height="40" click="doPrint(false)" />			
+		</s:HGroup>
+	</s:VGroup>
+	
+	<s:Group id="thePage" width="1000%">
+		<s:Rect width="100%" height="100%">
+			<s:fill>
+				<mx:SolidColor>
+					<mx:color>0xEEEEEE</mx:color>
+				</mx:SolidColor>
+			</s:fill>
+		</s:Rect>
+		<s:Group id="thePrintableArea" width="600" height="734">
+			<s:Rect width="100%" height="100%">
+				<s:fill>
+					<mx:SolidColor>
+						<mx:color>0xFFFFFF</mx:color>
+					</mx:SolidColor>
+				</s:fill>
+			</s:Rect>
+			<mx:Text id="mainTextArea" x="0" y="0" 
+					 width="100%" height="100%" 
+					 left="72" right="72" top="72" bottom="72"
+					 fontFamily="_serif"
+					 htmlText="{this.emmaExcerpt}"
+					 fontSize="17" />			
+			
+			<s:HGroup width="100%" height="100%" horizontalAlign="center" verticalAlign="middle">																
+				<s:RichText id="draftText"
+							text="DRAFT"
+							rotation="45"
+							fontSize="{(thePrintableArea.width > 350 &amp;&amp; thePrintableArea.height > 350) ? 100 : 50}"
+							fontWeight="bold"							
+							color="#FF0000" alpha="0.2" />			
+			</s:HGroup>
+		</s:Group>
+	</s:Group>
+</s:WindowedApplication>

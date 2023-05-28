@@ -1,0 +1,54 @@
+/* CSS file */
+
+Application
+{
+	backgroundGradientAlphas: 1.0, 1.0;
+	backgroundGradientColors: #666D7A, #666D7A;
+}
+
+global
+{
+	backgroundGradientAlphas: 1.0, 1.0;
+	backgroundGradientColors: #666D7A, #666D7A;
+	backgroundDisabledColor: #DDDDDD;
+	focusThickness: 1;
+	/* focusAlpha: 0.05; */
+	focusAlpha: 0.0;
+	themeColor: #FFFFFF;
+}
+
+Button
+{
+	color: #000000;
+	textSize: 10;
+	textRollOverColor: #000000;
+	textSelectedColor:#000000;
+	disabledColor:#D2D8E3;
+	fontWeight:normal;
+	fontFamily: Embed(source="newgrounds_flex_skin.swf", symbol="Tekuteku");
+	
+	disabledSkin: Embed(source="newgrounds_flex_skin.swf", symbol="Button_disabledSkin");
+	downSkin: Embed(source="newgrounds_flex_skin.swf", symbol="Button_downSkin");
+	overSkin: Embed(source="newgrounds_flex_skin.swf", symbol="Button_overSkin");
+	upSkin: Embed(source="newgrounds_flex_skin.swf", symbol="Button_upSkin");
+	fontFamily: Tekuteku;
+}
+
+Panel
+{
+
+	closeButtonDisabledSkin: Embed(source="newgrounds_flex_skin.swf",symbol="CloseButtonDisabled");
+	closeButtonDownSkin: Embed(source="newgrounds_flex_skin.swf",symbol="CloseButtonDown");
+	closeButtonOverSkin: Embed(source="newgrounds_flex_skin.swf",symbol="CloseButtonOver");
+	closeButtonUpSkin: Embed(source="newgrounds_flex_skin.swf",symbol="CloseButtonUp");
+	titleBackgroundSkin: Embed(source="newgrounds_flex_skin.swf", symbol="PanelTitleBackground");
+
+}
+
+@font-face
+{
+	fontFamily: Tekuteku;
+	fontWeight: normal;
+	fontStyle: normal;
+	src: url("../assets/Tekuteku.TTF");
+}

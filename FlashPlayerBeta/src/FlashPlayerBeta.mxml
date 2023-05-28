@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:mx="library://ns.adobe.com/flex/halo"
+			   minWidth="1024"
+			   minHeight="768"
+			   creationComplete="setupMicList()">
+
+	<fx:Script>
+		<![CDATA[
+			
+			[Bindable] private var _micList:Array;
+			protected var _mic:Microphone;
+			protected var _isRecording:Boolean;
+			protected var _soundRecording:ByteArray;
+			protected var _soundOutput:Sound;
+			
+			protected function playbackData():void
+			{
+				_soundRecording.position = 0;
+				
+				_soundOutput = new Sound();
+				_soundOutput.addEventListener(SampleDataEvent.SAMPLE_DATA, playSound);
+				_soundOutput.play();
+			}
+			
+			private function playSound(e:SampleDataEvent):void
+			{
+				if(!_soundRecording.bytesAvailable > 0)return;
+				
+				for(var i:int = 0; i < 8192; i++)
+				{
+					var sample:Number = 0;
+					if(_soundRecording.bytesAvailable > 0)
+					{
+						sample = _soundRecording.readFloat();
+					}
+					//_soundOutput.data.writeFloat(sample);
+					//_soundOutput.data.writeFloat(sample);
+				}
+			}
+			
+			protected function setupMicList():void
+			{
+				_micList = Microphone.names;
+			}
+			
+			protected function setupMic():void
+			{
+				_mic = Microphone.getMicrophone(comboMicList.selectedIndex);
+			}
+			
+			protected function startRecording():void
+			{
+				_isRecording = true;
+				_mic.addEventListener(SampleDataEvent.SAMPLE_DATA, micSampleData_Handler);
+			}
+			
+			protected function stopRecording():void
+			{
+				_isRecording = false;
+				_mic.removeEventListener(SampleDataEvent.SAMPLE_DATA, micSampleData_Handler);
+			}
+			
+			private function micSampleData_Handler(e:SampleDataEvent):void
+			{
+				
+			}
+		]]>
+	</fx:Script>
+
+	<mx:ComboBox id="comboMicList"
+				 dataProvider="{_micList}"
+				 x="10"
+				 y="10"/>
+	<s:Button label="Setup Mic"
+			  click="setupMic()"
+			  x="190"
+			  y="40"/>
+
+	<s:Button label="Start"
+			  click="startRecording()"
+			  x="10"
+			  y="40"/>
+
+	<s:Button label="Stop"
+			  click="stopRecording()"
+			  x="100"
+			  y="40"/>
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:Application>

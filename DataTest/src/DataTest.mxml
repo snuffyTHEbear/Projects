@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/halo" minWidth="1024" minHeight="768" xmlns:twittersearch="services.twittersearch.*">
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			import mx.controls.Alert;
+
+			protected function dataGrid_creationCompleteHandler(event:FlexEvent):void
+			{
+				GetTweetsResult.token = twitterSearch.GetTweets("flash");
+			}
+
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<s:CallResponder id="GetTweetsResult"/>
+		<twittersearch:TwitterSearch id="twitterSearch" fault="Alert.show(event.fault.faultString)" showBusyCursor="true"/>
+	</fx:Declarations>
+	<mx:DataGrid x="10" y="10" width="900" height="350" id="dataGrid" creationComplete="dataGrid_creationCompleteHandler(event)" dataProvider="{GetTweetsResult.lastResult}" editable="true">
+		<mx:columns>
+			<mx:DataGridColumn headerText="id" dataField="id"/>
+			<mx:DataGridColumn headerText="published" dataField="published"/>
+			<mx:DataGridColumn headerText="link" dataField="link" editable="false"/>
+			<mx:DataGridColumn headerText="title" dataField="title"/>
+			<mx:DataGridColumn headerText="content" dataField="content" editable="false"/>
+			<mx:DataGridColumn headerText="updated" dataField="updated"/>
+			<mx:DataGridColumn headerText="twitter_source" dataField="twitter_source"/>
+			<mx:DataGridColumn headerText="twitter_lang" dataField="twitter_lang"/>
+			<mx:DataGridColumn headerText="author" dataField="author" editable="false"/>
+		</mx:columns>
+	</mx:DataGrid>
+	
+</s:Application>

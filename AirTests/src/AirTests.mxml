@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx" applicationComplete="init()" width="640" height="480">
+
+	<fx:Script>
+		<![CDATA[
+			import com.arcticcode.purpleFlames.air.events.StorageVolumeEvent;
+			import com.arcticcode.purpleFlames.air.managers.StorageVolumeManager;
+			import com.arcticcode.purpleFlames.air.utils.AirUtils;
+			
+			import mx.core.UIComponent;
+			
+			private var _storageVolumeManager:StorageVolumeManager;
+			
+			private function init():void
+			{
+				statusText.text = AirUtils.getAIRRuntimeVersion();
+				stage.scaleMode = "noScale";
+				
+				_storageVolumeManager = new StorageVolumeManager();
+				_storageVolumeManager.addEventListener(StorageVolumeEvent.STORAGE_VOLUME_MOUNTED, volumeMounted);
+				_storageVolumeManager.addEventListener(StorageVolumeEvent.STORAGE_VOLUME_UNMOUNTED, volumeUnmounted);
+				_storageVolumeManager.checkForStorageVolumes();
+				trace(_storageVolumeManager.volumes);
+				trace(_storageVolumeManager.checkForFileSystemType(AirUtils.CDFS));
+				trace(_storageVolumeManager.getRootDirectoryFromFileSystemType(AirUtils.CDFS).resolvePath("Media\\").exists);
+				//Opening PDF files with default reader
+				//var pdfFile:File = File.documentsDirectory.resolvePath("as3.pdf");
+				//pdfFile.openWithDefaultApplication();
+				
+				//var request:URLRequest = new URLRequest("app:/assets/as3.pdf"); 
+				//var pdf :HTMLLoader= new HTMLLoader(); 
+				//pdf.height = 900; 
+				//pdf.width = 700; 
+				//pdf.load(request); 
+				//stage.addChild(pdf);
+			}
+			
+			private function volumeMounted(e:StorageVolumeEvent):void
+			{
+				trace(_storageVolumeManager.volumes);
+				trace(_storageVolumeManager.checkForFileSystemType(AirUtils.CDFS));
+				trace(_storageVolumeManager.getRootDirectoryFromFileSystemType(AirUtils.CDFS).nativePath);
+			}
+			
+			private function volumeUnmounted(e:StorageVolumeEvent):void
+			{
+				trace(_storageVolumeManager.volumes);
+				trace(_storageVolumeManager.checkForFileSystemType(AirUtils.CDFS));
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:WindowedApplication>

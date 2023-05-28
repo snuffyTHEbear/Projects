@@ -1,0 +1,117 @@
+/* CSS file */
+
+/*
+//------------------------------
+//  global
+//------------------------------
+*/
+global
+{
+	backgroundGradientAlphas: 1.0, 1.0;
+	backgroundGradientColors: #000000, #000000;
+	backgroundDisabledColor: #DDDDDD;
+	focusThickness: 1;
+	/* focusAlpha: 0.05; */
+	focusAlpha: 0.0;
+	themeColor: #FFFFFF;
+}
+
+/*
+//------------------------------
+//  Application
+//------------------------------
+*/
+Application
+{
+	backgroundGradientAlphas: 1.0, 1.0;
+	backgroundGradientColors: #333333, #333333;
+}
+
+/*
+//------------------------------
+//  Button
+//------------------------------
+*/
+Button
+{
+	color: #AAAAAA;
+	textRollOverColor: #FFFFFF;
+	textSelectedColor:#FFFFFF;
+	disabledColor:#5A5A5A;
+	fontWeight:normal;
+	
+	upSkin: Embed(source="kingnarestyle.swf", symbol="Button_upSkin");
+	overSkin: Embed(source="kingnarestyle.swf", symbol="Button_overSkin");
+	downSkin: Embed(source="kingnarestyle.swf", symbol="Button_downSkin");
+	disabledSkin: Embed(source="kingnarestyle.swf", symbol="Button_disabledSkin");
+	
+	selectedUpSkin: Embed(source='kingnarestyle.swf', symbol='Button_selectedUpSkin');
+	selectedOverSkin: Embed(source='kingnarestyle.swf', symbol='Button_selectedOverSkin');
+	selectedDownSkin: Embed(source='kingnarestyle.swf', symbol='Button_selectedDownSkin');
+	selectedDisabledSkin: Embed(source='kingnarestyle.swf', symbol='Button_selectedDisabledSkin');
+}
+
+/*
+//------------------------------
+//  TextInput
+//------------------------------
+*/
+TextInput
+{
+	backgroundAlpha: 1.0;
+	borderColor: #B7BABC;
+	color: #FFFFFF;
+	borderSkin: Embed(source="kingnarestyle.swf", symbol="TextInput_borderSkin");
+	borderStyle: none;
+	paddingTop: 2;
+	padding-left: 2;
+}
+
+/*
+//------------------------------
+//  List
+//------------------------------
+*/
+List
+{
+	color: #BBBBBB;
+	rollOverColor: #555555;
+	selectionColor: #444444;
+	textRollOverColor: #FFFFFF;
+	textSelectedColor: #FFFFFF;
+	borderColor: #222222;
+	disabledColor: #666666;
+	backgroundColor: #333333;
+	borderStyle: solid;
+	
+}
+
+/*
+//------------------------------
+//  VScrollBar
+//------------------------------
+*/
+VScrollBar
+{
+	trackUpSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_trackSkin");
+	trackOverSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_trackSkin");
+	trackDownSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_trackSkin");
+	trackDisabledSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_trackSkin");
+	
+	thumbUpSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_thumbUpSkin");
+	thumbOverSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_thumbOverSkin");
+	thumbDownSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_thumbDownSkin");
+	thumbIcon:	Embed(source="kingnarestyle.swf", symbol="ScrollBars_thumbIcon");
+	
+	downArrowUpSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_downArrowUpSkin");
+	downArrowOverSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_downArrowOverSkin");
+	downArrowDownSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_downArrowDownSkin");
+	downArrowDisabledSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_downArrowDisabledSkin");
+	upArrowUpSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_upArrowUpSkin");
+	upArrowOverSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_upArrowOverSkin");
+	upArrowDownSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_upArrowDownSkin");
+	upArrowDisabledSkin: Embed(source="kingnarestyle.swf", symbol="ScrollBars_upArrowDisabledSkin");
+	
+	/* upArrowSkin:  ClassReference(null);
+	downArrowSkin:  ClassReference(null); */
+}

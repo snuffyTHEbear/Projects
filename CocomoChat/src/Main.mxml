@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:rtc="CocomoNameSpace" layout="absolute">
+    <mx:Script>
+        <![CDATA[
+           
+                import com.adobe.rtc.pods.simpleChatClasses.ChatMessageDescriptor;
+                import com.adobe.rtc.events.ChatEvent;
+                import com.adobe.rtc.pods.simpleChatClasses.SimpleChatModel;
+               
+                [Bindable]
+                public var simpleChatModel:SimpleChatModel; 
+               
+                private function onConnectClicked():void
+                {
+                    simpleChatModel = new SimpleChatModel(true);
+                    simpleChatModel.sharedID = "simpleChatModel";
+                    simpleChatModel.subscribe();
+                    simpleChatModel.addEventListener(ChatEvent.HISTORY_CHANGE, onIncomingChatMessage);         
+                    chatInput_txt.addEventListener(KeyboardEvent.KEY_UP, onKeyUp); 
+                    connect_btn.enabled = false;   
+                    roster_lst.dataProvider = cocomoChatSession.userManager.userCollection;
+                    roster_lst.labelField = "displayName";   
+                }
+               
+                private function onIncomingChatMessage(chatEvent:ChatEvent):void
+                {
+                    if(chatEvent.message != null && chatEvent.message.msg != null && chatEvent.message.displayName != null)
+                        chatOutput_txt.htmlText += "<b>" + chatEvent.message.displayName + ":</b> " + chatEvent.message.msg + "<br>";
+                }
+               
+                private function onKeyUp(evt:KeyboardEvent):void
+                {
+                    if(evt.keyCode == Keyboard.ENTER)
+                    {
+                        var chatMessageDescriptor:ChatMessageDescriptor = new ChatMessageDescriptor();
+                        chatMessageDescriptor.displayName = cocomoChatSession.userManager.getUserDescriptor(cocomoChatSession.userManager.myUserID).displayName;
+                        chatMessageDescriptor.msg =  chatInput_txt.text;
+                        simpleChatModel.sendMessage(chatMessageDescriptor);
+                        chatInput_txt.text = "";
+                    }
+                }
+        ]]>
+
+    </mx:Script>
+    <rtc:LocalAuthenticator id="cocomoAuthenticator"  />
+   
+    <rtc:ConnectSessionContainer roomURL="ChatRoomUrl" id="cocomoChatSession" authenticator="{cocomoAuthenticator}" width="100%" height="100%">
+        <mx:Panel width="450" height="307" layout="absolute" horizontalCenter="0" verticalCenter="0" title="Cocomo Chat" id="cocomoChat_pnl" fontSize="14" fontFamily="Verdana" color="#000000">
+            <mx:TextInput x="10" y="223" borderStyle="solid" maxChars="100" id="chatInput_txt" width="237" height="29"/>
+            <mx:TextArea x="10" y="14" width="237" height="201" id="chatOutput_txt" editable="false" color="#000000"/>
+            <mx:List color="#000000" fontWeight="bold" x="257" y="14" id="roster_lst" height="201" width="163"></mx:List>
+            <mx:Button click="onConnectClicked();" x="255" y="223" label="Connect" height="29" id="connect_btn" width="165"/>
+        </mx:Panel>
+    </rtc:ConnectSessionContainer>
+   
+</mx:Application>

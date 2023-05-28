@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   width="600" height="420">
+
+	<fx:Script>
+		<![CDATA[
+			
+			private var _stubCode:String = "<a href=\"http://arctic-code.com/PHP/SWFViewer.php?swf_url=$SWFURL&swf_w=$SWFWIDTH&swf_h=$SWFHEIGHT\", target=\"_blank\"><img src=\"$PREVIEWIMAGE\"></a>";
+						
+			protected function generateHTML(event:MouseEvent):void
+			{
+				output.text = _stubCode.replace("$SWFURL", swfURLInput.text).replace("$SWFWIDTH", swfWidthInput.value.toString()).replace("$SWFHEIGHT", swfHeightInput.value.toString()).replace("$PREVIEWIMAGE", previewImageURL.text);
+			}
+		]]>
+	</fx:Script>
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:TextArea x="69" y="10" width="521" height="24" id="swfURLInput"/>
+	<s:Button x="10" y="369" label="Generate HTML" enabled="true" click="generateHTML(event)" id="genBtn"/>
+	<s:NumericStepper x="69" y="41" id="swfWidthInput" minimum="0" maximum="1200" stepSize="1"/>
+	<s:NumericStepper x="69" y="72" id="swfHeightInput" minimum="0" maximum="1280" stepSize="1"/>
+	<s:Label x="4" y="77" text="Height" width="47" height="12" paddingLeft="5"/>
+	<s:Label x="4" y="17" text="SWF URL" width="61" height="10" paddingLeft="5"/>
+	<s:TextArea x="69" y="100" width="521" height="24" id="previewImageURL"/>
+	<s:Label x="4" y="107" text="Preview" width="61" height="10" paddingLeft="5"/>
+	<s:Label x="5" y="46" text="Width" width="40" height="12" paddingLeft="5"/>
+	<s:TextArea x="10" y="130" width="580" height="231" id="output"/>
+</s:WindowedApplication>

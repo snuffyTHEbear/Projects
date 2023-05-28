@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	                   xmlns:s="library://ns.adobe.com/flex/spark" 
+	                   xmlns:mx="library://ns.adobe.com/flex/halo">
+<fx:Script>
+	<![CDATA[
+		[Bindable]
+		private var textSize:Number = 24;
+		
+		private function changeSize():void
+		{
+			textSize = mySlider.value;
+		}
+	]]>
+</fx:Script>
+
+	    <s:Panel id="myPanel" x="99" y="14" width="502" height="324">
+		<s:HSlider  change="changeSize()" id="mySlider" x="191" y="144" 
+			minimum="10" maximum="72" stepSize="1" liveDragging="true"/>
+		<mx:Label fontSize="{textSize}" id="myLabel" x="202" y="47" text="Hello World"/>
+		<s:Button x="207" y="235" label="Goodbye" click="myPanel.visible=false"/>
+	</s:Panel>
+	
+</s:WindowedApplication>

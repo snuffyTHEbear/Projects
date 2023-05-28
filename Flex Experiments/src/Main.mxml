@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="600" height="400" xmlns:buttons="ui.buttons.*" applicationComplete="init()">
+	<mx:Style source="style/style.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.collections.ArrayCollection;
+			
+			[Bindable]
+			private var ac:ArrayCollection = new ArrayCollection();
+			
+			private function init():void
+			{
+				createArrayCollection();
+			}
+			
+			private function createArrayCollection():void
+			{
+				for(var i:uint=0;i<27;i++)
+				{
+					
+					var obj:Object = {data:Math.floor(Math.random()*50), 
+					label:"Item: " + i.toString(),
+					url:"http://img.ngfiles.com/badges/badge_" + i.toString() + ".gif"};
+					ac.addItem(obj);
+				}
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Panel name="mainPanel" title="Title" x="10" y="10" width="580" height="380">
+		<mx:List dataProvider="{ac}" itemRenderer="SimpleListItem" width="220" height="330" id="list">
+		
+		</mx:List>
+		
+	</mx:Panel>
+	
+</mx:Application>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx" width="640" height="480"
+					   applicationComplete="init()" xmlns:ns1="*">
+	<fx:Script>
+		<![CDATA[
+			import com.arcticcode.purpleFlames.air.utils.AirUtils;
+			
+			protected var _microphone:Microphone;
+			protected var _isRecording:Boolean = false;
+			protected var _isPlaying:Boolean = false;
+			protected var _soundData:ByteArray;
+			protected var _soundOutput:Sound;
+			protected var _sound:Sound;
+			protected var _channel:SoundChannel;
+			
+			private function init():void
+			{
+				log("AIR Version: " + AirUtils.getAIRRuntimeVersion());
+				if(!_microphone)
+				{
+					setupMicrophone();
+				}
+			}
+			
+			protected function setupMicrophone():void
+			{
+				log("Setting up microphone...");	
+				
+				_microphone = Microphone.getMicrophone(0);
+				_microphone.rate = 44;
+				_microphone.setUseEchoSuppression(true);
+				
+				log("Microphone setup: " + _microphone.name);
+			}
+			
+			protected function startRecording():void
+			{
+				if(_channel)
+				{
+					_channel.stop();
+				}
+				recordBtn.enabled = false;
+				playBtn.enabled = false;
+				stopBtn.enabled = true;
+				_soundData = new ByteArray();
+				_isRecording = true;
+				_microphone.addEventListener(SampleDataEvent.SAMPLE_DATA, gotMicData);
+				log("Recording Started...");
+			}
+			
+			protected function stopRecording():void
+			{
+				stopBtn.enabled = false;
+				recordBtn.enabled = true;
+				playBtn.enabled = true;
+				_isRecording = false;
+				_microphone.removeEventListener(SampleDataEvent.SAMPLE_DATA, gotMicData);
+				log("Recording Stopped.");
+			}
+			
+			protected function playbackData():void
+			{
+				log("Playing recorded audio...");
+				_isPlaying = true;
+				_soundData.position = 0;
+				playBtn.enabled = false;
+				recordBtn.enabled = false;
+				_soundOutput = new Sound();
+				_soundOutput.addEventListener(SampleDataEvent.SAMPLE_DATA, playSound);
+				_channel = _soundOutput.play();
+				_channel.addEventListener(Event.SOUND_COMPLETE, soundComplete);
+			}
+			
+			private function soundComplete(e:Event):void
+			{
+				log(_soundOutput.length);
+				stopBtn.enabled = false;
+				recordBtn.enabled = true;
+				playBtn.enabled = true;
+				_soundData.position = 0;
+				generateWaveform();
+				log("Playback ended.");
+			}
+			
+			private function playSound(e:SampleDataEvent):void
+			{
+				if(!_soundData.bytesAvailable > 0)
+					
+					return;
+				
+				for(var i:int = 0 ; i < 8192; i++)
+				{
+					var sample:Number = 0;
+					if(_soundData.bytesAvailable > 0)
+					{
+						sample = _soundData.readFloat();
+					}
+					e.data.writeFloat(sample);
+					e.data.writeFloat(sample);
+				}
+			}
+			
+			private function gotMicData(e:SampleDataEvent):void
+			{
+				_soundData.writeBytes(e.data);
+			}
+
+
+			protected function recordBtn_clickHandler(event:MouseEvent):void
+			{
+				startRecording();
+			}
+
+
+			protected function stopBtn_clickHandler(event:MouseEvent):void
+			{
+				if(_isRecording)
+				{
+					stopRecording();
+				}
+				else
+				{
+					_channel.stop();
+					stopBtn.enabled = false;
+					recordBtn.enabled = true;
+					playBtn.enabled = true;
+					log("Playback stopped.");
+				}
+			}
+
+
+			protected function playBtn_clickHandler(event:MouseEvent):void
+			{
+				playbackData();
+				stopBtn.enabled = true;
+			}
+			
+			protected function log(string:*):void
+			{
+				output.appendText(string.toString() + "\n");
+			}
+			
+			protected function generateWaveform():void
+			{
+				var samples:ByteArray = new ByteArray();
+				var buffer:BitmapData = new BitmapData(400,512,false,0);
+				var screen:Bitmap = new Bitmap(buffer);
+				cont.addChild( screen );				
+				
+				var rect:Rectangle = new Rectangle(0,0,1,0);
+				var playingTime:int;
+				var ratio:Number;
+				var step:int;
+				
+				buffer.fillRect( buffer.rect, 0 );	
+				var extract:Number = Math.floor ((_soundOutput.length/1000)*44100);
+				playingTime = _soundOutput.length;
+				ratio = playingTime / buffer.width;
+				var lng:Number = _soundOutput.extract(samples,extract);
+				samples.position = 0;
+				step = samples.length/4096;
+				do step-- while ( step % 4 );	
+				var left:Number;
+				var right:Number;	
+				for (var c:int = 0; c < 4096; c++)
+				{
+					rect.x = c/4;
+					left = samples.readFloat()*128;
+					right = samples.readFloat()*128;
+					samples.position = c*step;
+					
+					if (left>0)
+					{
+						rect.y = 128-left;
+						rect.height = left;
+					} else
+					{
+						rect.y = 128;
+						rect.height = -left;
+					}
+					
+					buffer.fillRect( rect, 0xFFFFFF );
+					
+					/*if (right>0)
+					{
+						rect.y = 350-right;
+						rect.height = right;
+					} else
+					{
+						rect.y = 350;
+						rect.height = -right;
+					}
+					
+					buffer.fillRect( rect, 0x00ff00 );*/
+				}
+			}
+
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<mx:TabNavigator x="10" y="10" width="622" height="464" id="nav">
+		<s:NavigatorContent label="Basic" width="100%" height="100%">
+			<s:Button x="10" y="10" label="Record" id="recordBtn" click="recordBtn_clickHandler(event)"/>
+			<s:Button x="10" y="45" label="Stop" id="stopBtn" click="stopBtn_clickHandler(event)" enabled="false"/>
+			<s:Button x="10" y="84" label="Play" id="playBtn" click="playBtn_clickHandler(event)" enabled="false"/>
+			<s:TextArea x="100" y="10" width="508" height="104" id="output"/>
+			<ns1:FlashContainerPlaceholder x="10" y="123" width="600" height="297" id="cont">
+			</ns1:FlashContainerPlaceholder>
+		</s:NavigatorContent>
+	</mx:TabNavigator>
+</s:WindowedApplication>

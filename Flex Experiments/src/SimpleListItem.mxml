@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" width="100" height="85">
+	<mx:HBox width="100%" height="80">
+		<mx:Image height="75" width="75" source="{data.url}"/>
+		<mx:Text text="{data.label}" width="100%" selectable="false"/>
+	</mx:HBox>
+</mx:VBox>

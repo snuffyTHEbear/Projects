@@ -1,0 +1,217 @@
+/*package AdvancedPhysics
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.geom.Rectangle;
+
+	public class VerletStage extends Sprite
+	{
+		private var _constraints:Rectangle;
+		private var _points:Vector.<VerletPoint> = new Vector.<VerletPoint>();
+		private var _sticks:Vector.<VerletStick> = new Vector.<VerletStick>();
+		
+		public function VerletStage()
+		{
+			addEventListener(Event.ADDED_TO_STAGE, init);
+		}
+		private function init(e:Event):void
+		{
+			_constraints = new Rectangle(0,0,stage.stageWidth,stage.stageHeight);
+			
+			//base
+			Verlet.makePoint(stage.stageWidth * 0.5, stage.stageHeight - 500, _points);
+			Verlet.makePoint(0, stage.stageHeight, _points);
+			Verlet.makePoint(stage.stageWidth, stage.stageHeight, _points);
+			
+			//arm
+			Verlet.makePoint(stage.stageWidth * 0.5 + 350, stage.stageHeight - 500, _points);
+			
+			//weight
+			Verlet.makePoint(stage.stageWidth * 0.5 + 360, stage.stageHeight - 510, _points);
+			Verlet.makePoint(stage.stageWidth * 0.5 + 360, stage.stageHeight - 490, _points);
+			Verlet.makePoint(stage.stageWidth / 2 + 370, stage.stageHeight - 500, _points);
+			
+			//base
+			Verlet.makeStick(_points[0], _points[1], -1, _sticks);
+			Verlet.makeStick(_points[1], _points[2], -1, _sticks);
+			Verlet.makeStick(_points[2], _points[0], -1, _sticks);
+			
+			//arm
+			Verlet.makeStick(_points[0], _points[3], -1, _sticks);
+			
+			//weight
+			Verlet.makeStick(_points[3], _points[4], -1, _sticks);
+			Verlet.makeStick(_points[3], _points[5], -1, _sticks);
+			Verlet.makeStick(_points[4], _points[5], -1, _sticks);
+			Verlet.makeStick(_points[4], _points[6], -1, _sticks);
+			Verlet.makeStick(_points[5], _points[6], -1, _sticks);
+			Verlet.makeStick(_points[6], _points[3], -1, _sticks);
+			
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
+		private function onEnterFrame(e:Event):void
+		{
+			Verlet.updatePoints(_points, null);
+			
+			for(var i:int=0;i<1;i++)
+			{
+				Verlet.constrainPoints(_points, _constraints);
+				Verlet.updateSticks(_sticks);
+			}
+			
+			graphics.clear();
+			Verlet.renderPoints(_points, graphics);
+			Verlet.renderSticks(_sticks, graphics);
+		}
+	}
+}*/
+
+/*package AdvancedPhysics
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.geom.Rectangle;
+	
+	public class VerletStage extends Sprite
+	{
+		private var _pointA:VerletPoint;
+		private var _pointB:VerletPoint;
+		private var _stick:VerletStick;
+		private var _stageRect:Rectangle;
+		
+		public function VerletStage()
+		{
+			addEventListener(Event.ADDED_TO_STAGE, init);
+		}
+		private function init(e:Event):void
+		{
+			_stageRect = new Rectangle(0, 0,
+										stage.stageWidth,
+										stage.stageHeight);
+										
+			_pointA = new VerletPoint(55, 7);
+			_pointB = new VerletPoint(125, 70);
+			
+			_stick = new VerletStick(_pointA, _pointB);
+			
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
+		private function onEnterFrame(e:Event):void
+		{
+			_pointA.y -= .3;
+			_pointA.x += .61;
+			_pointA.update();
+			
+			_pointB.y += .5;
+			_pointB.x -= .6;
+			_pointB.update();
+			
+			for(var i:int = 0;i < 5;i++)
+			{
+				_pointA.constrain(_stageRect);
+				_pointB.constrain(_stageRect);
+				_stick.update();
+			}
+						
+			graphics.clear();
+			_pointA.render(graphics);
+			_pointB.render(graphics);
+			_stick.render(graphics);
+		}
+	}
+}*/
+
+/*package AdvancedPhysics
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.geom.Rectangle;
+	
+	public class VerletStage extends Sprite
+	{
+		private var _stageRect:Rectangle;
+		private var _triangle:VerletTriangle;
+		private var _pointA:VerletPoint;
+		private var _pointB:VerletPoint;
+		private var _pointC:VerletPoint;
+		private var _velocities:Vector.<Number> = new Vector.<Number>();
+		
+		public function VerletStage()
+		{
+			addEventListener(Event.ADDED_TO_STAGE, init);
+		}
+		private function init(e:Event):void
+		{
+			_stageRect = new Rectangle(0, 0,
+										stage.stageWidth,
+										stage.stageHeight);
+										
+			_pointA = new VerletPoint(100, 100);
+			_pointB = new VerletPoint(200, 100);
+			_pointC = new VerletPoint(150, 200);
+			
+			_velocities = new Vector.<Number>();
+			
+			_velocities[0] = .5;
+			_velocities[1] = -.1;
+			_velocities[2] = .3;
+			_velocities[3] = -.3;
+			_velocities[4] = .2;
+			_velocities[5] = .1;
+					
+			_triangle = new VerletTriangle(_pointA,_pointB,_pointC, _stageRect);
+			
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
+		private function onEnterFrame(e:Event):void
+		{
+			_triangle.update(graphics, _velocities);
+		}
+	}
+}*/
+
+/*package AdvancedPhysics
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.geom.Rectangle;
+
+	public class VerletStage extends Sprite
+	{
+		private var _square:VerletSquare;
+		private var _constraints:Rectangle;
+		private var _velocities:Vector.<Object> = new Vector.<Object>();
+		
+		public function VerletStage()
+		{
+			addEventListener(Event.ADDED_TO_STAGE, init);			
+		}
+		private function init(e:Event):void
+		{
+			_constraints = new Rectangle(0, 0, stage.stageWidth, stage.stageHeight);
+			
+			var _pa:VerletPoint = new VerletPoint(10, 0);
+			var _pb:VerletPoint = new VerletPoint(110, 0);
+			var _pc:VerletPoint = new VerletPoint(110, 100);
+			var _pd:VerletPoint = new VerletPoint(10, 100);
+			
+			_square = new VerletSquare(_pa, _pb, _pc, _pd, _constraints);
+			_square._points[0].vx = 10;
+			//_square._points[3].vy = 1;
+			//_square._points[1].vy = 1;
+			//_square._points[2].vy = 1;
+			//_square._points[0].vy = 1;
+			
+			for(var i:int=0;i<4;i++)
+			{
+				_velocities.push({y:0.5, x:0});
+			}
+			
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
+		private function onEnterFrame(e:Event):void
+		{
+			_square.update(graphics,_velocities);
+		}
+	}
+}*/

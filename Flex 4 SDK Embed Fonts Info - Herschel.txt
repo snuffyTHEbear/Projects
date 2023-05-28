@@ -1,0 +1,1 @@
+Upgraded to the Flex 4 SDK and  wondering why your [Embed]ed fonts have stopped working? Add this to the [Embed]: embedAsCFF="false"

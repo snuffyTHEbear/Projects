@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx" width="695" height="400" applicationComplete="init(event)">
+	<fx:Style source="EnKrypt.css"/>
+	<fx:Declarations>
+	</fx:Declarations>
+
+	<fx:Script>
+		<![CDATA[
+			import com.arcticcode.greenFlames.encryption.BasicEncryption;
+			import com.arcticcode.greenFlames.keyboard.KeyboardShortcut;
+			import com.arcticcode.greenFlames.keyboard.events.KeyboardShortcutEvent;
+			
+			import mx.events.FlexEvent;
+			
+			import spark.events.TextOperationEvent;
+			
+			private var _char:String;
+			
+			private var _keyboardShortcut_Decrypt:KeyboardShortcut;
+			
+			protected function decryptClick( event:MouseEvent ):void
+			{
+				output.text = BasicEncryption.decrypt( input.text );
+			}
+			
+			
+			protected function encryptClick( event:MouseEvent ):void
+			{
+				output.text = BasicEncryption.encrypt( input.text );
+			}
+			
+			
+			protected function checkChar( event:TextOperationEvent ):void
+			{
+				//logger.text = input.text.charAt(input.text.length - 1);
+				_char = input.text.charAt( input.text.length - 1 );
+				
+				if ( !BasicEncryption.checkSupportedChar( _char ))
+				{
+					input.editable = false;
+					logger.text = _char + " : Is not a supported character.";
+					loggerClearBtn.enabled = true;
+				}
+				else
+				{
+					
+				}
+			}
+			
+			
+			protected function clearLogger( event:MouseEvent ):void
+			{
+				logger.text = "";
+				input.text = input.text.replace( _char, "" );
+				input.editable = true;
+				loggerClearBtn.enabled = false;
+			}
+			
+			protected function init( event:FlexEvent ):void
+			{
+				_keyboardShortcut_Decrypt = new KeyboardShortcut( stage );
+				_keyboardShortcut_Decrypt.addEventListener(KeyboardShortcutEvent.SHORTCUT_ACTIVATED, shortcutActivated_Handler);
+				_keyboardShortcut_Decrypt.addEventListener(KeyboardShortcutEvent.SHORTCUT_DEACTIVATED, shortcutDeactivated_Handler);
+				
+				_keyboardShortcut_Decrypt.addKeys( Keyboard.K, Keyboard.SHIFT, Keyboard.CONTROL, Keyboard.ALTERNATE );
+			}
+			
+			private function shortcutActivated_Handler( e:Event ):void
+			{
+				decryptBtn.enabled = decryptBtn.visible =! decryptBtn.visible;
+			}
+			
+			private function shortcutDeactivated_Handler( e:Event ):void
+			{
+				//decryptBtn.enabled = decryptBtn.visible = false;
+			}
+		]]>
+	</fx:Script>
+
+	<s:TextArea x="10" y="178" width="673" height="121" id="output" editable="false" enabled="true"/>
+	<s:TextArea x="12" y="307" width="673" height="34" id="logger" editable="false" enabled="true"/>
+
+	<s:Button label="Encrypt" horizontalCenter="-303" id="encryptBtn" click="encryptClick(event)" y="349"/>
+	<s:Button label="Clear Logger" horizontalCenter="-135" id="loggerClearBtn" click="clearLogger(event)" y="349" enabled="false"/>
+	<s:Button label="Decrypt" horizontalCenter="-225" id="decryptBtn" click="decryptClick(event)" visible="false" enabled="false" y="349"/>
+	<s:TextArea x="12" y="10" height="161" width="673" change="checkChar(event)" editable="true" enabled="true" id="input"/>
+</s:WindowedApplication>

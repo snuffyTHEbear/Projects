@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+    width="450" height="200">
+    <mx:Script>
+        <![CDATA[
+        	import mx.graphics.codec.PNGEncoder;
+       		import mx.graphics.codec.JPEGEncoder;
+       	 	import mx.controls.Alert;
+
+	        import flash.display.Bitmap;
+	      	import flash.filesystem.*;
+	
+	      	private var bitmapData:BitmapData;
+	        private var newImage:File;
+	        private var fileStream:FileStream;
+	        private var mc:MovieClip = new _text3();
+	        
+	        [Bindable]
+	        private var path:String = File.desktopDirectory.resolvePath('Images/').nativePath;
+	        
+            private function init():void{
+                fileStream = new FileStream();
+            }
+
+            private function snagPic():void {
+            	bitmapData = new BitmapData(mc.width,mc.height+5,true,0x00ffffff);
+                bitmapData.draw(mc,mc.transform.matrix);
+                var bitmap : Bitmap = new Bitmap(bitmapData);
+               // var jpg:JPEGEncoder = new JPEGEncoder(100);
+                var png:PNGEncoder = new PNGEncoder();
+                var ba:ByteArray = png.encode(bitmapData);
+                //var ba2:ByteArray = png.encodeByteArray(ba, mc.width, mc.height, true);
+                //var ba:ByteArray = jpg.encode(bitmapData);
+                newImage = File.desktopDirectory.resolvePath("Images/" + fileName.text + ".png");
+                fileStream = new FileStream();
+                fileStream.open(newImage, FileMode.UPDATE);
+                fileStream.writeBytes(ba);
+            }
+			
+        ]]>
+    </mx:Script>
+    <mx:TextInput id="fileName" text="MyNewFile" x="78" y="50"/>
+    <mx:Button click="snagPic()" label="Snap Picture" x="246" y="50"/>
+    <mx:Label text="Images will be saved to:"  y="78" x="10"/>
+    <mx:Label text="{path}"  x="10" y="104" width="428"/>
+    <mx:Label x="10" y="52" text="File Name"/>
+</mx:WindowedApplication>

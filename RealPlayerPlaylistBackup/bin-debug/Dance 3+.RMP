@@ -1,0 +1,3379 @@
+<?xml version="1.0"?>
+<PACKAGE>
+	<SIG>Put the digital signature here</SIG>
+	<TITLE>Dance 3+</TITLE>
+	<ACTION>import,replace</ACTION>
+	<TARGET>Dance 3+</TARGET>
+	<EXP_DATE>05/09/2010 15:18</EXP_DATE>
+	<PROVIDER>
+		<AUTHOR>RealPlayer</AUTHOR>
+		<NAME>RealNetworks</NAME>
+		<URL>http://www.real.com/</URL>
+		<COPYRIGHT>Copyright 2001-2003, RealNetworks</COPYRIGHT>
+		<CONTACT>RealOne@real.com</CONTACT>
+	</PROVIDER>
+	<SERVER>
+		<NAME>LocalOnly</NAME>
+		<DESC>Local File Server</DESC>
+		<NETNAME>local</NETNAME>
+		<LOCATION>%f</LOCATION> <!-- %f = filename, %fid=Track  id, %lid = TrackList ID, %pid= package id -->
+		<KEY>Not used in Beta1</KEY>
+	</SERVER>
+	<TRACKLIST>
+		<LISTID>13</LISTID>
+		<TRACK>
+			<TRACKID>2267</TRACKID>
+			<TITLE>This Is an Emergency</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>. Mark Ronson</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\16 - This Is an Emergency.mp3</FILENAME>
+			<SIZE>4590113</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>190</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1883</TRACKID>
+			<TITLE>CHASING PAVEMENTS</TITLE>
+			<ALBUM>19</ALBUM>
+			<ARTIST>ADELE</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\ADELE\19\03 - CHASING PAVEMENTS.mp3</FILENAME>
+			<SIZE>5058437</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>210</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>185</TRACKID>
+			<TITLE>Mansion on the hill</TITLE>
+			<ALBUM>la peste</ALBUM>
+			<ARTIST>Alabama3</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Alabama3\la peste\02 - Track 2.mp3</FILENAME>
+			<SIZE>4349369</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>181</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>184</TRACKID>
+			<TITLE>Too sick to pray</TITLE>
+			<ALBUM>la peste</ALBUM>
+			<ARTIST>Alabama3</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Alabama3\la peste\01 - Track 1.mp3</FILENAME>
+			<SIZE>6845839</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>285</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1767</TRACKID>
+			<TITLE>Valerie</TITLE>
+			<ALBUM>Now 65</ALBUM>
+			<ARTIST>Amy Winehouse</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 65\04 - Valerie.mp3</FILENAME>
+			<SIZE>5296214</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>220</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>214</TRACKID>
+			<TITLE>Rehab</TITLE>
+			<ALBUM>Back To Black</ALBUM>
+			<ARTIST>Amy Winehouse</ARTIST>
+			<GENRE>General R&B</GENRE>
+			<FILENAME>D:\My Documents\My Music\Amy Winehouse\Back To Black\01 - Rehab.mp3</FILENAME>
+			<SIZE>5167064</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>225</TRACKID>
+			<TITLE>I'm Outta Love - Anastacia</TITLE>
+			<ALBUM>Now That's What I Call Music 47 (Disc 1)</ALBUM>
+			<ARTIST>Anastacia</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Anastacia\Now That's What I Call Music 47 (Disc 1)\17 - I'm Outta Love - Anastacia.mp3</FILENAME>
+			<SIZE>5874084</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>244</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>230</TRACKID>
+			<TITLE>I Bet You Look Good On The Da</TITLE>
+			<ALBUM>Whatever People Say I Am, Tha</ALBUM>
+			<ARTIST>Arctic Monkeys</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Arctic Monkeys\Whatever People Say\02-i_bet_you_look_good_on_the_dancefloor_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>4174747</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>173</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>230</TRACKID>
+			<TITLE>I Bet You Look Good On The Da</TITLE>
+			<ALBUM>Whatever People Say I Am, Tha</ALBUM>
+			<ARTIST>Arctic Monkeys</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Arctic Monkeys\Whatever People Say\02-i_bet_you_look_good_on_the_dancefloor_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>4174747</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>173</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>234</TRACKID>
+			<TITLE>Still Take You Home</TITLE>
+			<ALBUM>Whatever People Say I Am, Tha</ALBUM>
+			<ARTIST>Arctic Monkeys</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Arctic Monkeys\Whatever People Say\06-still_take_you_home_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>4174120</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>173</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>239</TRACKID>
+			<TITLE>When The Sun Goes Down</TITLE>
+			<ALBUM>Whatever People Say I Am, Tha</ALBUM>
+			<ARTIST>Arctic Monkeys</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Arctic Monkeys\Whatever People Say\11-when_the_sun_goes_down_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>4806702</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>200</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>243</TRACKID>
+			<TITLE>Respect</TITLE>
+			<ALBUM>Debbie's Dance 1</ALBUM>
+			<ARTIST>Aretha Franklin</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Aretha Franklin\Debbie's Dance 1\07 - Respect.mp3</FILENAME>
+			<SIZE>3466639</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>144</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1630</TRACKID>
+			<TITLE>Shoulda Woulda Coulda</TITLE>
+			<ALBUM>Untitled - 01-04-06</ALBUM>
+			<ARTIST>Beverley Knight</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Untitled - 01-04-06\09 - Shoulda Woulda Coulda.mp3</FILENAME>
+			<SIZE>5078039</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>211</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1562</TRACKID>
+			<TITLE>Piece Of My Heart</TITLE>
+			<ALBUM>Now 64 (Disc 2)</ALBUM>
+			<ARTIST>Beverley Knight</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Untitled - 07-10-06\17 - Track 17.mp3</FILENAME>
+			<SIZE>5145121</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>214</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>278</TRACKID>
+			<TITLE>Crazy In Love - Beyonce feat</TITLE>
+			<ALBUM>Now 56 (Disc 1)</ALBUM>
+			<ARTIST>Beyonce feat</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Beyonce feat\Now 56 (Disc 1)\06 - Crazy In Love - Beyonce feat.mp3</FILENAME>
+			<SIZE>6021415</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>250</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2203</TRACKID>
+			<TITLE>A New England</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Billy Bragg</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\08 - A New England.mp3</FILENAME>
+			<SIZE>3190159</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>132</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>285</TRACKID>
+			<TITLE>Where Is The Love? - Black Eyed Peas</TITLE>
+			<ALBUM>Now 56 (Disc 1)</ALBUM>
+			<ARTIST>Black Eyed Peas</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Black Eyed Peas\Now 56 (Disc 1)\01 - Where Is The Love- - Black Eyed Peas.mp3</FILENAME>
+			<SIZE>5570646</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>232</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>288</TRACKID>
+			<TITLE>Yeah Yeah Brother</TITLE>
+			<ALBUM>It's Great When You're Straight...Yeah</ALBUM>
+			<ARTIST>Black Grape</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Black Grape\It's Great When You're Straight...Yeah\05 - Yeah Yeah Brother.mp3</FILENAME>
+			<SIZE>5971887</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>248</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2268</TRACKID>
+			<TITLE>Stop Me</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Bloc Party</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\17 - Stop Me.mp3</FILENAME>
+			<SIZE>5593216</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>232</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>304</TRACKID>
+			<TITLE>Heart of Glass</TITLE>
+			<ALBUM>Comilation - Golden Greats</ALBUM>
+			<ARTIST>Blondie</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Blondie\Comilation - Golden Greats\01 - Heart of Glass.mp3</FILENAME>
+			<SIZE>5971887</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>248</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>308</TRACKID>
+			<TITLE>Song 2</TITLE>
+			<ALBUM>The Best Of (Bonus Live CD)</ALBUM>
+			<ARTIST>Blur</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\Blur\The Best of Blur\02-song_2_192_lame_cbr.mp3</FILENAME>
+			<SIZE>2933241</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>122</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2201</TRACKID>
+			<TITLE>Song 2</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Blur</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\06 - Song 2.mp3</FILENAME>
+			<SIZE>2896125</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>120</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>323</TRACKID>
+			<TITLE>Could You Be Loved</TITLE>
+			<ALBUM>Legend</ALBUM>
+			<ARTIST>Bob Marley & The Wailers</ARTIST>
+			<GENRE>General Reggae</GENRE>
+			<FILENAME>D:\My Documents\My Music\Bob Marley & The Wailers\Legend\03 - Could You Be Loved.mp3</FILENAME>
+			<SIZE>5620174</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>234</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>334</TRACKID>
+			<TITLE>Jamming</TITLE>
+			<ALBUM>Legend</ALBUM>
+			<ARTIST>Bob Marley & The Wailers</ARTIST>
+			<GENRE>General Reggae</GENRE>
+			<FILENAME>D:\My Documents\My Music\Bob Marley & The Wailers\Legend\14 - Jamming.mp3</FILENAME>
+			<SIZE>5120504</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>330</TRACKID>
+			<TITLE>Waiting In Vain</TITLE>
+			<ALBUM>Legend</ALBUM>
+			<ARTIST>Bob Marley & The Wailers</ARTIST>
+			<GENRE>General Reggae</GENRE>
+			<FILENAME>D:\My Documents\My Music\Bob Marley & The Wailers\Legend\10 - Waiting In Vain.mp3</FILENAME>
+			<SIZE>6123606</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>255</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1609</TRACKID>
+			<TITLE>I Like The Way</TITLE>
+			<ALBUM>Now That's What I Call Music, Vol 61 [Disc 1]</ALBUM>
+			<ARTIST>Bodyrockers</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now That's What I Call Music, Vol 61 [Disc 1]\12 - I Like The Way.mp3</FILENAME>
+			<SIZE>4824129</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>200</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>335</TRACKID>
+			<TITLE>Green Onions (Get Shorty)</TITLE>
+			<ALBUM>Movie Killers</ALBUM>
+			<ARTIST>Booker T & The MGs</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Booker T & The MGs\Movie Killers\03 - Green Onions (Get Shorty).mp3</FILENAME>
+			<SIZE>4117402</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>171</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>337</TRACKID>
+			<TITLE>I Love Rock 'n' Roll - Britney Spears</TITLE>
+			<ALBUM>NOW 53 (Disc 1)</ALBUM>
+			<ARTIST>Britney Spears</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Britney spears\NOW 53 (Disc 1)\13 - I Love Rock 'n' Roll - Britney Spears.mp3</FILENAME>
+			<SIZE>4518642</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>188</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>349</TRACKID>
+			<TITLE>Chan Chan</TITLE>
+			<ALBUM>Buena Vista Social Club</ALBUM>
+			<ARTIST>Buena Vista Social Club</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Buena Vista Social Club\Buena Vista Social Club\01 - Chan Chan.mp3</FILENAME>
+			<SIZE>6172507</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>257</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>350</TRACKID>
+			<TITLE>El Cuarto de Tula</TITLE>
+			<ALBUM>Buena Vista Social Club</ALBUM>
+			<ARTIST>Buena Vista Social Club</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Buena Vista Social Club\Buena Vista Social Club\03 - El Cuarto de Tula.mp3</FILENAME>
+			<SIZE>10688974</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>445</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>354</TRACKID>
+			<TITLE>Ever Fallen In Love (With Someone You Shouldna</TITLE>
+			<ALBUM>Debbie's Dance 1</ALBUM>
+			<ARTIST>Buzzcocks</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Buzzcocks\Debbie's Dance 1\21 - Ever Fallen In Love (With Someone You Shouldna.mp3</FILENAME>
+			<SIZE>3916781</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>163</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1618</TRACKID>
+			<TITLE>Ain't No Other Man</TITLE>
+			<ALBUM>NOW! 65 [Disc 1]</ALBUM>
+			<ARTIST>Christina Aguilera</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\NOW! 65 [Disc 1]\08 - Ain't No Other Man.mp3</FILENAME>
+			<SIZE>5474891</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>227</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>359</TRACKID>
+			<TITLE>Johnny B Goode</TITLE>
+			<ALBUM>The Best Air Guitar Album In The World Ever Vol 1 (Disc 2)</ALBUM>
+			<ARTIST>Chuck Berry</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Chuck Berry\The Best Air Guitar Album In The World Ever Vol 1 (Disc 2)\05 - Johnny B Goode.mp3</FILENAME>
+			<SIZE>3867880</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>161</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>374</TRACKID>
+			<TITLE>Fix You</TITLE>
+			<ALBUM>X&Y</ALBUM>
+			<ARTIST>Coldplay</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Coldplay\X&Y\04 - Fix You.mp3</FILENAME>
+			<SIZE>7086584</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>295</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>369</TRACKID>
+			<TITLE>Yellow</TITLE>
+			<ALBUM>Parachutes</ALBUM>
+			<ARTIST>Coldplay</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Coldplay\Parachutes\05 - Yellow.mp3</FILENAME>
+			<SIZE>6475945</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>269</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>388</TRACKID>
+			<TITLE>Put Your Records On</TITLE>
+			<ALBUM>Corinne Bailey Rae</ALBUM>
+			<ARTIST>Corinne Bailey Rae</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Corinne Bailey Rae\Corinne Bailey Rae 2006\03-put_your_records_on_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5174715</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2202</TRACKID>
+			<TITLE>Lion Rock</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Culture</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\07 - Lion Rock.mp3</FILENAME>
+			<SIZE>6270936</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>261</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2181</TRACKID>
+			<TITLE>Life on Mars?</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>David Bowie</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\06 - Life on Mars-.mp3</FILENAME>
+			<SIZE>5499802</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>228</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>421</TRACKID>
+			<TITLE>Please Forgive Me</TITLE>
+			<ALBUM>White Ladder</ALBUM>
+			<ARTIST>David Gray</ARTIST>
+			<GENRE>Alt-Folk</GENRE>
+			<FILENAME>D:\My Documents\My Music\David Gray\White Ladder\01 - Please Forgive Me.mp3</FILENAME>
+			<SIZE>8080909</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>336</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2222</TRACKID>
+			<TITLE>Mercy</TITLE>
+			<ALBUM>Rockferry</ALBUM>
+			<ARTIST>Duffy</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Duffy\Rockferry\07 - Mercy.mp3</FILENAME>
+			<SIZE>5294166</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>220</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2165</TRACKID>
+			<TITLE>Stepping Stone</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>Duffy</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\12 - Track 12.mp3</FILENAME>
+			<SIZE>5067214</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>210</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2216</TRACKID>
+			<TITLE>Rockferry</TITLE>
+			<ALBUM>Rockferry</ALBUM>
+			<ARTIST>Duffy</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Duffy\Rockferry\01 - Rockferry.mp3</FILENAME>
+			<SIZE>6092259</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>253</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2217</TRACKID>
+			<TITLE>Warwick Avenue</TITLE>
+			<ALBUM>Rockferry</ALBUM>
+			<ARTIST>Duffy</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Duffy\Rockferry\02 - Warwick Avenue.mp3</FILENAME>
+			<SIZE>5454662</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>227</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2219</TRACKID>
+			<TITLE>Stepping Stone</TITLE>
+			<ALBUM>Rockferry</ALBUM>
+			<ARTIST>Duffy</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Duffy\Rockferry\04 - Stepping Stone.mp3</FILENAME>
+			<SIZE>5031478</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>209</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>461</TRACKID>
+			<TITLE>Falling In Love Again</TITLE>
+			<ALBUM>Debbie's Dance 2</ALBUM>
+			<ARTIST>Eagle Eye Cherry</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Eagle Eye Cherry\Debbie's Dance 2\06 - Falling In Love Again.mp3</FILENAME>
+			<SIZE>5071602</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>211</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>462</TRACKID>
+			<TITLE>Burning Up</TITLE>
+			<ALBUM>Living In The Present Future</ALBUM>
+			<ARTIST>Eagle Eye Cherry</ARTIST>
+			<GENRE>Folk-Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Eagle Eye Cherry\Living In The Present Future\05 - Burning Up.mp3</FILENAME>
+			<SIZE>6172507</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>257</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2215</TRACKID>
+			<TITLE>Dust My Blues</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Elmore James</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\20 - Dust My Blues.mp3</FILENAME>
+			<SIZE>4585725</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>190</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>484</TRACKID>
+			<TITLE>(I Don't Want To Go To) Chelsea</TITLE>
+			<ALBUM>The Man (The Best Of Elvis Costello)</ALBUM>
+			<ARTIST>Elvis Costello</ARTIST>
+			<GENRE>New Wave</GENRE>
+			<FILENAME>D:\My Documents\My Music\Elvis Costello\The Man (The Best Of Elvis Costello)\08 - (I Don't Want To Go To) Chelsea.mp3</FILENAME>
+			<SIZE>4469741</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>186</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>481</TRACKID>
+			<TITLE>Watching The Detectives</TITLE>
+			<ALBUM>The Man (The Best Of Elvis Costello)</ALBUM>
+			<ARTIST>Elvis Costello</ARTIST>
+			<GENRE>New Wave</GENRE>
+			<FILENAME>D:\My Documents\My Music\Elvis Costello\The Man (The Best Of Elvis Costello)\01 - Watching The Detectives.mp3</FILENAME>
+			<SIZE>5370025</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>223</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2152</TRACKID>
+			<TITLE>Pjanoo</TITLE>
+			<ALBUM>Now Thats What I Call Music 71  [Disc 1]</ALBUM>
+			<ARTIST>Eric Prydz</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 71  [Disc 1]\22 - Track 22.mp3</FILENAME>
+			<SIZE>3802846</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>158</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>492</TRACKID>
+			<TITLE>Going Under</TITLE>
+			<ALBUM>Fallen</ALBUM>
+			<ARTIST>Evanescence</ARTIST>
+			<GENRE>Hard Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Evanescence\Fallen\01 - Going Under.mp3</FILENAME>
+			<SIZE>5169405</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>510</TRACKID>
+			<TITLE>Right Here, Right Now</TITLE>
+			<ALBUM>Compilation - Fatboy Slim etc.</ALBUM>
+			<ARTIST>Fatboy Slim</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Fatboy Slim\Compilation - Fatboy Slim etc\06 - Right Here, Right Now.mp3</FILENAME>
+			<SIZE>9333532</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>388</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>516</TRACKID>
+			<TITLE>First Down</TITLE>
+			<ALBUM>Halfway Between The Gutter And The Guardian</ALBUM>
+			<ARTIST>Fatboy Slim</ARTIST>
+			<GENRE>Big Beat</GENRE>
+			<FILENAME>D:\My Documents\My Music\Fatboy Slim\Halfway Between The Gutter And The Guardian\05 - First Down.mp3</FILENAME>
+			<SIZE>9030721</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>376</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>509</TRACKID>
+			<TITLE>Praise You</TITLE>
+			<ALBUM>Compilation - Fatboy Slim etc.</ALBUM>
+			<ARTIST>Fatboy Slim</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Fatboy Slim\Compilation - Fatboy Slim etc\05 - Praise You.mp3</FILENAME>
+			<SIZE>7728569</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>321</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1695</TRACKID>
+			<TITLE>The Chain Guitar Solo</TITLE>
+			<ALBUM>Rumours</ALBUM>
+			<ARTIST>Fleetwood Mac</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\AAAmusic projects\The Chain Guitar Solo.mp3</FILENAME>
+			<SIZE>1349674</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>128000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>84</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>535</TRACKID>
+			<TITLE>Rescue Me</TITLE>
+			<ALBUM>Debbie's Dance 3</ALBUM>
+			<ARTIST>Fontella Base</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Fontella Base\Debbie's Dance 3\01 - Rescue Me.mp3</FILENAME>
+			<SIZE>4215831</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>175</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2257</TRACKID>
+			<TITLE>Mistress Mabel</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Fratellis</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\06 - Mistress Mabel.mp3</FILENAME>
+			<SIZE>6382531</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>265</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1631</TRACKID>
+			<TITLE>Crazy</TITLE>
+			<ALBUM>Now 64 (Disc 1)</ALBUM>
+			<ARTIST>Gnarls Barkley</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 64\01 - Track 1.mp3</FILENAME>
+			<SIZE>4315681</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>179</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>553</TRACKID>
+			<TITLE>19-2000 (Soul Child Remix)</TITLE>
+			<ALBUM>G Sides</ALBUM>
+			<ARTIST>Gorillaz</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Gorillaz\G Sides\01 - 19-2000 (Soul Child Remix).mp3</FILENAME>
+			<SIZE>5120504</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1950</TRACKID>
+			<TITLE>Standing in the Way of Control</TITLE>
+			<ALBUM>Standing in the Way of Control</ALBUM>
+			<ARTIST>Gossip</ARTIST>
+			<GENRE>Rock/Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Gossip\Standing in the Way of Control\02 - Standing in the Way of Control.mp3</FILENAME>
+			<SIZE>6159341</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>256</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1714</TRACKID>
+			<TITLE>Standing in the Way of Control</TITLE>
+			<ALBUM>Radio 1's Live Lounge, Vol. 2</ALBUM>
+			<ARTIST>Gossip</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Radio 1's Live Lounge, Vol. 2\18 - Standing in the Way of Control.mp3</FILENAME>
+			<SIZE>6114829</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>254</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1950</TRACKID>
+			<TITLE>Standing in the Way of Control</TITLE>
+			<ALBUM>Standing in the Way of Control</ALBUM>
+			<ARTIST>Gossip</ARTIST>
+			<GENRE>Rock/Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Gossip\Standing in the Way of Control\02 - Standing in the Way of Control.mp3</FILENAME>
+			<SIZE>6159341</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>256</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>559</TRACKID>
+			<TITLE>Maria</TITLE>
+			<ALBUM>International Superhits</ALBUM>
+			<ARTIST>Green Day</ARTIST>
+			<GENRE>Pop-Punk</GENRE>
+			<FILENAME>D:\My Documents\My Music\Green Day\International Superhits\01 - Maria.mp3</FILENAME>
+			<SIZE>4015211</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>167</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>581</TRACKID>
+			<TITLE>MMM Bop</TITLE>
+			<ALBUM>Compilation - Fatboy Slim etc.</ALBUM>
+			<ARTIST>Hanson</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Hanson\Compilation - Fatboy Slim etc\09 - MMM Bop.mp3</FILENAME>
+			<SIZE>5722365</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>238</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2269</TRACKID>
+			<TITLE>Flux</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Hot Chip</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\18 - Flux.mp3</FILENAME>
+			<SIZE>5205140</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>216</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>603</TRACKID>
+			<TITLE>Hit me with your Rythm Stick</TITLE>
+			<ALBUM>The Best of Ian Dury</ALBUM>
+			<ARTIST>Ian Dury</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Ian Dury\The Best of Ian Dury\04 - Hit me with your Rythm Stick.mp3</FILENAME>
+			<SIZE>5370025</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>223</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2171</TRACKID>
+			<TITLE>I Like You So Much Better When You're Naked</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>Ida Maria</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\18 - Track 18.mp3</FILENAME>
+			<SIZE>4465353</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>185</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2258</TRACKID>
+			<TITLE>I Like You So Much Better When You're Naked</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Ida Maria</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\07 - I Like You So Much Better When You're Naked.mp3</FILENAME>
+			<SIZE>4607668</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>191</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>606</TRACKID>
+			<TITLE>A Modern Way of Letting Go</TITLE>
+			<ALBUM>Unknown</ALBUM>
+			<ARTIST>Idlewild</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Idlewild\13 - A Modern Way of Letting Go.mp3</FILENAME>
+			<SIZE>3466639</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>144</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>623</TRACKID>
+			<TITLE>I Got You (I Feel Good)</TITLE>
+			<ALBUM>Debbie's Dance 1</ALBUM>
+			<ARTIST>James Brown</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\James Brown\Debbie's Dance 1\01 - I Got You (I Feel Good).mp3</FILENAME>
+			<SIZE>4015211</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>167</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1929</TRACKID>
+			<TITLE>Wonderful World</TITLE>
+			<ALBUM>The Saturday Sessions: The Dermot O'Leary Show'</ALBUM>
+			<ARTIST>James Mossison</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\The Saturday Sessions- The Dermot O'Leary Show'\03 - Wonderful World.mp3</FILENAME>
+			<SIZE>4966444</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>206</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>636</TRACKID>
+			<TITLE>All Along The Watchtower</TITLE>
+			<ALBUM>Debbie's Dance 5 & Smoochie</ALBUM>
+			<ARTIST>Jimi Hendrix</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Jimi Hendrix\Debbie's Dance 5 & Smoochie\04 - All Along The Watchtower.mp3</FILENAME>
+			<SIZE>5771266</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>240</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>170</TRACKID>
+			<TITLE>Voodoo Chile (Slight Return)</TITLE>
+			<ALBUM>Cornerstones 1967-1970</ALBUM>
+			<ARTIST>Jimi Hendrix</ARTIST>
+			<GENRE>Hard Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\AAAmusic projects\Jude Birthday\07 - Voodoo Chile (Slight Return) (2).mp3</FILENAME>
+			<SIZE>7576850</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>315</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>664</TRACKID>
+			<TITLE>Solid Air speed</TITLE>
+			<ALBUM>Solid Air</ALBUM>
+			<ARTIST>John Martyn</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\John Martyn\Solid Air\01 - Solid Air Groove speed.mp3</FILENAME>
+			<SIZE>4106950</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>128000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>256</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>690</TRACKID>
+			<TITLE>Fly Me To The Moon</TITLE>
+			<ALBUM>Compilation - Smokey Robinson etc.</ALBUM>
+			<ARTIST>Julie London</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Julie London\Compilation - Smokey Robinson etc\04 - Fly Me To The Moon.mp3</FILENAME>
+			<SIZE>3765062</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>156</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1610</TRACKID>
+			<TITLE>Everyday I Love You Less And Less</TITLE>
+			<ALBUM>Now That's What I Call Music, Vol 61 [Disc 1]</ALBUM>
+			<ARTIST>Kaiser Chiefs</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now That's What I Call Music, Vol 61 [Disc 1]\13 - Everyday I Love You Less And Less.mp3</FILENAME>
+			<SIZE>5234147</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>217</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1739</TRACKID>
+			<TITLE>Ruby</TITLE>
+			<ALBUM>Essential Songs - Spring Collection</ALBUM>
+			<ARTIST>Kaiser Chiefs</ARTIST>
+			<GENRE>Rock/Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Essential Songs - Spring Collection\03 - Ruby.mp3</FILENAME>
+			<SIZE>4888536</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>203</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2160</TRACKID>
+			<TITLE>Never Miss A Beat</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>Kaiser Chiefs</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\07 - Track 7.mp3</FILENAME>
+			<SIZE>4518642</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>188</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2132</TRACKID>
+			<TITLE>I Kissed A Girl</TITLE>
+			<ALBUM>Now Thats What I Call Music 71  [Disc 1]</ALBUM>
+			<ARTIST>Katy Perry</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 71  [Disc 1]\02 - Track 2.mp3</FILENAME>
+			<SIZE>4340592</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>180</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2276</TRACKID>
+			<TITLE>Is It Any Wonder?</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Keane</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\04 - Is It Any Wonder-.mp3</FILENAME>
+			<SIZE>4447171</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>185</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2134</TRACKID>
+			<TITLE>Sex On Fire</TITLE>
+			<ALBUM>Now Thats What I Call Music 71  [Disc 1]</ALBUM>
+			<ARTIST>Kings Of Leon</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 71  [Disc 1]\04 - Track 4.mp3</FILENAME>
+			<SIZE>4926320</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>204</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>721</TRACKID>
+			<TITLE>All Day and All Night</TITLE>
+			<ALBUM>The Best Air Guitar Album In The World Ever 2 (Disc 1)</ALBUM>
+			<ARTIST>Kinks</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Kinks\The Best Air Guitar Album In The World Ever 2 (Disc 1)\10 - All Day and All Night.mp3</FILENAME>
+			<SIZE>3413349</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>142</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>726</TRACKID>
+			<TITLE>Black Horse And The Cherry Tree</TITLE>
+			<ALBUM>Eye To The Telescope</ALBUM>
+			<ARTIST>KT Tunstall</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\KT Tunstall\Eye To The Telescope\04 - Black Horse And The Cherry Tree.mp3</FILENAME>
+			<SIZE>4142019</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>172</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>731</TRACKID>
+			<TITLE>Suddenly I See</TITLE>
+			<ALBUM>Eye To The Telescope</ALBUM>
+			<ARTIST>KT Tunstall</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\KT Tunstall\Eye To The Telescope\09 - Suddenly I See.mp3</FILENAME>
+			<SIZE>4846072</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>201</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1606</TRACKID>
+			<TITLE>Other Side Of The World</TITLE>
+			<ALBUM>Now That's What I Call Music, Vol 61 [Disc 1]</ALBUM>
+			<ARTIST>KT Tunstall</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now That's What I Call Music, Vol 61 [Disc 1]\09 - Other Side Of The World.mp3</FILENAME>
+			<SIZE>5113775</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>212</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>758</TRACKID>
+			<TITLE>United States Of Whatever - Liam Lynch</TITLE>
+			<ALBUM>Top Of The Pops Spring 2003 (Disc 2)</ALBUM>
+			<ARTIST>Liam Lynch</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Liam Lynch\Top Of The Pops Spring 2003 (Disc 2)\11 - United States Of Whatever - Liam Lynch.mp3</FILENAME>
+			<SIZE>2111198</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>87</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1556</TRACKID>
+			<TITLE>Smile</TITLE>
+			<ALBUM>Now 64 (Disc 2)</ALBUM>
+			<ARTIST>Lily Allen</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Untitled - 07-10-06\01 - Track 1.mp3</FILENAME>
+			<SIZE>4716922</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>196</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1624</TRACKID>
+			<TITLE>LDN</TITLE>
+			<ALBUM>NOW! 65 [Disc 2]</ALBUM>
+			<ARTIST>Lily Allen</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\NOW! 65 [Disc 2]\09 - LDN.mp3</FILENAME>
+			<SIZE>4600939</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>191</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>783</TRACKID>
+			<TITLE>Dont Stop Moving</TITLE>
+			<ALBUM>100% Summer Mix 96 (Disc 1)</ALBUM>
+			<ARTIST>Livin Joy</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\Livin Joy\100% Summer Mix 96 (Disc 1)\05 - Dont Stop Moving.mp3</FILENAME>
+			<SIZE>5321124</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>221</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1696</TRACKID>
+			<TITLE>Free Bird Guitar Solo</TITLE>
+			<ALBUM>The Best Rock Album ...ever! (disc 2)</ALBUM>
+			<ARTIST>Lynyrd Skinner</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\AAAmusic projects\18 - Free Bird Guitar.mp3</FILENAME>
+			<SIZE>2224076</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>128000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>138</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2139</TRACKID>
+			<TITLE>Beggin'</TITLE>
+			<ALBUM>Now Thats What I Call Music 71  [Disc 1]</ALBUM>
+			<ARTIST>Madcon</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 71  [Disc 1]\09 - Track 9.mp3</FILENAME>
+			<SIZE>5185246</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>832</TRACKID>
+			<TITLE>Manu Chao - Casa Babylon</TITLE>
+			<ALBUM>Live</ALBUM>
+			<ARTIST>Manu Chao</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Manu Chao\Live\08 - Manu Chao - Casa Babylon.mp3</FILENAME>
+			<SIZE>3718209</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>154</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>831</TRACKID>
+			<TITLE>Manu Chao - El Viento</TITLE>
+			<ALBUM>Live</ALBUM>
+			<ARTIST>Manu Chao</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Manu Chao\Live\07 - Manu Chao - El Viento.mp3</FILENAME>
+			<SIZE>3874317</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>161</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>829</TRACKID>
+			<TITLE>Manu Chao - Peligro</TITLE>
+			<ALBUM>Live</ALBUM>
+			<ARTIST>Manu Chao</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Manu Chao\Live\05 - Manu Chao - Peligro.mp3</FILENAME>
+			<SIZE>4552037</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>189</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>828</TRACKID>
+			<TITLE>Manu Chao - Por Done Saldra el Sol?</TITLE>
+			<ALBUM>Live</ALBUM>
+			<ARTIST>Manu Chao</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Manu Chao\Live\04 - Manu Chao - Por Done Saldra el Sol-.mp3</FILENAME>
+			<SIZE>3883094</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>161</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>830</TRACKID>
+			<TITLE>Manu Chao - Welcome to Tijuana</TITLE>
+			<ALBUM>Live</ALBUM>
+			<ARTIST>Manu Chao</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Manu Chao\Live\06 - Manu Chao - Welcome to Tijuana.mp3</FILENAME>
+			<SIZE>4083714</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>169</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>875</TRACKID>
+			<TITLE>Inertia Creeps</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\05 - Inertia Creeps.mp3</FILENAME>
+			<SIZE>8513496</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>354</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>884</TRACKID>
+			<TITLE>Live With Me</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\14 - Live With Me.mp3</FILENAME>
+			<SIZE>6993170</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>291</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>871</TRACKID>
+			<TITLE>Safe From Harm</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\01 - Safe From Harm.mp3</FILENAME>
+			<SIZE>7670891</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>319</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>868</TRACKID>
+			<TITLE>Blue Lines</TITLE>
+			<ALBUM>Blue Lines</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>Trip Hop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Blue Lines\03 - Blue Lines.mp3</FILENAME>
+			<SIZE>6324226</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>263</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>890</TRACKID>
+			<TITLE>Protection</TITLE>
+			<ALBUM>Protection</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>Trip Hop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Protection\01 - Protection.mp3</FILENAME>
+			<SIZE>11339736</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>472</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>876</TRACKID>
+			<TITLE>Protection</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\06 - Protection.mp3</FILENAME>
+			<SIZE>11174851</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>465</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>883</TRACKID>
+			<TITLE>Sly</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\13 - Sly.mp3</FILENAME>
+			<SIZE>7122319</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>296</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>878</TRACKID>
+			<TITLE>Unfinished Sympathy</TITLE>
+			<ALBUM>Collected</ALBUM>
+			<ARTIST>Massive Attack</ARTIST>
+			<GENRE>General Electronic</GENRE>
+			<FILENAME>D:\My Documents\My Music\Massive Attack\Collected\08 - Unfinished Sympathy.mp3</FILENAME>
+			<SIZE>7500990</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>312</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>895</TRACKID>
+			<TITLE>Bitch</TITLE>
+			<ALBUM>The Best Rock Anthems Ever (Disc 1)</ALBUM>
+			<ARTIST>Meredith Brooks</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Meredith Brooks\The Best Rock Anthems Ever (Disc 1)\20 - Bitch.mp3</FILENAME>
+			<SIZE>5722365</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>238</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>899</TRACKID>
+			<TITLE>Beat It</TITLE>
+			<ALBUM>Thriller</ALBUM>
+			<ARTIST>Michael Jackson</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Michael Jackson\Thriller\05-beat_it_192_lame_cbr.mp3</FILENAME>
+			<SIZE>6210083</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>258</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>900</TRACKID>
+			<TITLE>Billie Jean</TITLE>
+			<ALBUM>Thriller</ALBUM>
+			<ARTIST>Michael Jackson</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Michael Jackson\Thriller\06-billie_jean_192_lame_cbr.mp3</FILENAME>
+			<SIZE>7068989</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>294</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>898</TRACKID>
+			<TITLE>Thriller</TITLE>
+			<ALBUM>Thriller</ALBUM>
+			<ARTIST>Michael Jackson</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Michael Jackson\Thriller\04-thriller_192_lame_cbr.mp3</FILENAME>
+			<SIZE>8640098</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>359</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>901</TRACKID>
+			<TITLE>Goin' Where I Never Been Before</TITLE>
+			<ALBUM>Drive On</ALBUM>
+			<ARTIST>Michael Jerome Browne</ARTIST>
+			<GENRE>General Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Michael Jerome Browne\Drive On\01 - Goin' Where I Never Been Before.mp3</FILENAME>
+			<SIZE>3814590</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>158</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>913</TRACKID>
+			<TITLE>Anthem</TITLE>
+			<ALBUM>Everything Is Wrong</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General Techno</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\Everything Is Wrong\10 - Anthem.mp3</FILENAME>
+			<SIZE>5018313</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>209</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>905</TRACKID>
+			<TITLE>Extreme Ways</TITLE>
+			<ALBUM>18</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\18\09 - Extreme Ways.mp3</FILENAME>
+			<SIZE>5722365</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>238</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>908</TRACKID>
+			<TITLE>Feeling So Real</TITLE>
+			<ALBUM>Everything Is Wrong</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General Techno</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\Everything Is Wrong\02 - Feeling So Real.mp3</FILENAME>
+			<SIZE>4868474</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>915</TRACKID>
+			<TITLE>Go</TITLE>
+			<ALBUM>Observer Disc</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\Observer Disc\03 - Go.mp3</FILENAME>
+			<SIZE>5874084</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>244</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>903</TRACKID>
+			<TITLE>In My Heart</TITLE>
+			<ALBUM>18</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\18\03 - In My Heart.mp3</FILENAME>
+			<SIZE>6676566</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>278</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>907</TRACKID>
+			<TITLE>Rafters</TITLE>
+			<ALBUM>18</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\18\17 - Rafters.mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>902</TRACKID>
+			<TITLE>In This World</TITLE>
+			<ALBUM>18</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\MOBY\18\02 - In This World.mp3</FILENAME>
+			<SIZE>5874084</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>244</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>621</TRACKID>
+			<TITLE>James Bond Theme (Moby`s Re-V</TITLE>
+			<ALBUM>James Bond Theme</ALBUM>
+			<ARTIST>Moby</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\James Bond\01_-_james_bond_theme_(mobys_re-version)_192_lame_cbr.mp3</FILENAME>
+			<SIZE>4669235</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>194</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>953</TRACKID>
+			<TITLE>Supermassive Black Hole</TITLE>
+			<ALBUM>Black Holes & Revelations</ALBUM>
+			<ARTIST>Muse</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Muse\Black Holes and Revelations\03-supermassive_black_hole_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5026423</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>209</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>981</TRACKID>
+			<TITLE>I'm Like A Bird-Nelly Fetado</TITLE>
+			<ALBUM>Now 48 (Disc 1)</ALBUM>
+			<ARTIST>Nelly Fetado</ARTIST>
+			<GENRE>European Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nelly Fetado\Now 48 (Disc 1)\04 - I'm Like A Bird-Nelly Fetado.mp3</FILENAME>
+			<SIZE>5874084</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>244</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>982</TRACKID>
+			<TITLE>WoMan</TITLE>
+			<ALBUM>Man</ALBUM>
+			<ARTIST>Neneh Cherry</ARTIST>
+			<GENRE>General Hip Hop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Neneh Cherry\Man\01 - WoMan.mp3</FILENAME>
+			<SIZE>6524847</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>271</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1003</TRACKID>
+			<TITLE>Come As You Are</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\03 - Come As You Are.mp3</FILENAME>
+			<SIZE>5272223</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>219</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1001</TRACKID>
+			<TITLE>Smells Like Teen Spirit</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\01 - Smells Like Teen Spirit.mp3</FILENAME>
+			<SIZE>7278427</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>303</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1000</TRACKID>
+			<TITLE>Smells Like Teen Spirit</TITLE>
+			<ALBUM>Debbie's Dance 2</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Debbie's Dance 2\04 - Smells Like Teen Spirit.mp3</FILENAME>
+			<SIZE>7225137</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>300</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1004</TRACKID>
+			<TITLE>Breed</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\04 - Breed.mp3</FILENAME>
+			<SIZE>4416451</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>183</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1002</TRACKID>
+			<TITLE>In Bloom</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\02 - In Bloom.mp3</FILENAME>
+			<SIZE>6123606</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>255</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1005</TRACKID>
+			<TITLE>Lithium</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\05 - Lithium.mp3</FILENAME>
+			<SIZE>6172507</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>257</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1010</TRACKID>
+			<TITLE>Stay Away</TITLE>
+			<ALBUM>Nevermind</ALBUM>
+			<ARTIST>Nirvana</ARTIST>
+			<GENRE>Grunge</GENRE>
+			<FILENAME>D:\My Documents\My Music\Nirvana\Nevermind\10 - Stay Away.mp3</FILENAME>
+			<SIZE>5120504</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1015</TRACKID>
+			<TITLE>Don't Speak</TITLE>
+			<ALBUM>The Singles 1992-2003</ALBUM>
+			<ARTIST>No Doubt</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\No Doubt\The Singles 1992-2003\13 - Don't Speak.mp3</FILENAME>
+			<SIZE>6324226</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>263</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1013</TRACKID>
+			<TITLE>Hey Baby</TITLE>
+			<ALBUM>The Singles 1992-2003</ALBUM>
+			<ARTIST>No Doubt</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\No Doubt\The Singles 1992-2003\03 - Hey Baby.mp3</FILENAME>
+			<SIZE>4968784</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>206</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1607</TRACKID>
+			<TITLE>Lyla</TITLE>
+			<ALBUM>Now That's What I Call Music, Vol 61 [Disc 1]</ALBUM>
+			<ARTIST>Oasis</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now That's What I Call Music, Vol 61 [Disc 1]\10 - Lyla.mp3</FILENAME>
+			<SIZE>7516831</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>313</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2292</TRACKID>
+			<TITLE>Supersonic</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Oasis</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\20 - Supersonic.mp3</FILENAME>
+			<SIZE>6828285</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>284</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2214</TRACKID>
+			<TITLE>Chime</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Orbital</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\19 - Chime.mp3</FILENAME>
+			<SIZE>4647792</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>193</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1035</TRACKID>
+			<TITLE>Yolele</TITLE>
+			<ALBUM>Emotion</ALBUM>
+			<ARTIST>Papa Wemba</ARTIST>
+			<GENRE>African</GENRE>
+			<FILENAME>D:\My Documents\My Music\Papa Wemba\Emotion\01 - Yolele.mp3</FILENAME>
+			<SIZE>4919883</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>204</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1041</TRACKID>
+			<TITLE>Fever</TITLE>
+			<ALBUM>Compilation - Smokey Robinson etc.</ALBUM>
+			<ARTIST>Peggy Lee</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Peggy Lee\Compilation - Smokey Robinson etc\15 - Fever.mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1043</TRACKID>
+			<TITLE>Guaglione</TITLE>
+			<ALBUM>100% Summer Mix 96 (Disc 2)</ALBUM>
+			<ARTIST>Perez Prado</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\Perez Prado\100% Summer Mix 96 (Disc 2)\04 - Guaglione.mp3</FILENAME>
+			<SIZE>3466639</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>144</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1044</TRACKID>
+			<TITLE>Sledgehammer</TITLE>
+			<ALBUM>Shaking The Tree</ALBUM>
+			<ARTIST>Peter Gabriel</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Peter Gabriel\Shaking The Tree\03 - Sledgehammer.mp3</FILENAME>
+			<SIZE>7077807</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>294</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1047</TRACKID>
+			<TITLE>Trouble</TITLE>
+			<ALBUM>Try This</ALBUM>
+			<ARTIST>Pink</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Pink\Try This\01 - Trouble.mp3</FILENAME>
+			<SIZE>4670362</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>194</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1694</TRACKID>
+			<TITLE>Comfortably Numb Guitar Solo</TITLE>
+			<ALBUM>Echoes: The Best Of Pink Floyd (Disc 2)</ALBUM>
+			<ARTIST>Pink Floyd</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\AAAmusic projects\Comfortably Numb Guitar Solo.mp3</FILENAME>
+			<SIZE>1837483</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>128000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>114</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1050</TRACKID>
+			<TITLE>One Of These Days</TITLE>
+			<ALBUM>Echoes: The Best Of Pink Floyd (Disc 2)</ALBUM>
+			<ARTIST>Pink Floyd</ARTIST>
+			<GENRE>Psychedelic Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Pink Floyd\Echoes- The Best Of Pink Floyd (Disc 2)\06 - One Of These Days.mp3</FILENAME>
+			<SIZE>7576850</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>315</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2206</TRACKID>
+			<TITLE>Sheela-Na-Gig</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Pj Harvey</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\11 - Sheela-Na-Gig.mp3</FILENAME>
+			<SIZE>4603279</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>191</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1062</TRACKID>
+			<TITLE>Glory Box</TITLE>
+			<ALBUM>Dummy</ALBUM>
+			<ARTIST>Portishead</ARTIST>
+			<GENRE>Trip Hop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Portishead\Dummy\10 - Glory Box.mp3</FILENAME>
+			<SIZE>7376229</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>307</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1644</TRACKID>
+			<TITLE>Country Girl</TITLE>
+			<ALBUM>Now 64 (Disc 1)</ALBUM>
+			<ARTIST>Primal Scream</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 64\19 - Track 19.mp3</FILENAME>
+			<SIZE>6518117</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>271</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1065</TRACKID>
+			<TITLE>Breathe</TITLE>
+			<ALBUM>Debbie's Dance 1</ALBUM>
+			<ARTIST>Prodigy</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Prodigy\Debbie's Dance 1\14 - Breathe.mp3</FILENAME>
+			<SIZE>8079028</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>336</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2255</TRACKID>
+			<TITLE>In the Morning</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Razorlight</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\04 - In the Morning.mp3</FILENAME>
+			<SIZE>5348082</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>222</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1090</TRACKID>
+			<TITLE>By The Way</TITLE>
+			<ALBUM>Greatest Hits</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Funk Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Greatest Hits\08 - By The Way.mp3</FILENAME>
+			<SIZE>5218933</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>217</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1089</TRACKID>
+			<TITLE>Scar Tissue</TITLE>
+			<ALBUM>Greatest Hits</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Funk Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Greatest Hits\04 - Scar Tissue.mp3</FILENAME>
+			<SIZE>5220981</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>217</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1088</TRACKID>
+			<TITLE>Under The Bridge</TITLE>
+			<ALBUM>Greatest Hits</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Funk Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Greatest Hits\01 - Under The Bridge.mp3</FILENAME>
+			<SIZE>6573748</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>273</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1093</TRACKID>
+			<TITLE>Snow (Hey Oh)</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\02-snow_(hey_oh)_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>8035896</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>334</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1109</TRACKID>
+			<TITLE>21st Century</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\18-21st_century_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>6303664</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>262</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1092</TRACKID>
+			<TITLE>Dani California</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\01-dani_california_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>6777630</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>282</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1091</TRACKID>
+			<TITLE>Fortune Faded</TITLE>
+			<ALBUM>Greatest Hits</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Funk Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Greatest Hits\15 - Fortune Faded.mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1096</TRACKID>
+			<TITLE>Hump De Bump</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\05-hump_de_bump_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5118123</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1110</TRACKID>
+			<TITLE>She Looks To Me</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\19-she_looks_to_me_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5911201</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>246</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1100</TRACKID>
+			<TITLE>Strip My Mind</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\09-strip_my_mind_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>6229685</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>259</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1118</TRACKID>
+			<TITLE>Turn It Again</TITLE>
+			<ALBUM>Stadium Arcadium</ALBUM>
+			<ARTIST>Red Hot Chili Peppers</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Red Hot Chili Peppers\Stadium Arcadium\27-turn_it_again_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>8789476</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>366</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1120</TRACKID>
+			<TITLE>Place Your Hands</TITLE>
+			<ALBUM>Cigarettes & Alcohol (Disc 2)</ALBUM>
+			<ARTIST>Reef</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Reef\Cigarettes & Alcohol (Disc 2)\11 - Place Your Hands.mp3</FILENAME>
+			<SIZE>5272223</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>219</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1128</TRACKID>
+			<TITLE>I've Got Something To Say</TITLE>
+			<ALBUM>Rides</ALBUM>
+			<ARTIST>Reef</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Reef\Rides\02 - I've Got Something To Say.mp3</FILENAME>
+			<SIZE>5874084</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>244</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2291</TRACKID>
+			<TITLE>Heavyweight Champion of the World</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Reverend And The Makers</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\19 - Heavyweight Champion of the World.mp3</FILENAME>
+			<SIZE>4973173</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>206</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1633</TRACKID>
+			<TITLE>Voodoo Chld</TITLE>
+			<ALBUM>Now 64 (Disc 1)</ALBUM>
+			<ARTIST>Rogue Traders</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 64\04 - Track 4.mp3</FILENAME>
+			<SIZE>5126940</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2270</TRACKID>
+			<TITLE>L.E.S. Artistes</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>SantaGold</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\19 - L.E.S. Artistes.mp3</FILENAME>
+			<SIZE>4955619</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>206</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1173</TRACKID>
+			<TITLE>Oye Como Va (Carlito's Way)</TITLE>
+			<ALBUM>Movie Killers</ALBUM>
+			<ARTIST>Santana</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Santana\Movie Killers\10 - Oye Como Va (Carlito's Way).mp3</FILENAME>
+			<SIZE>6172507</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>257</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1174</TRACKID>
+			<TITLE>Smooth</TITLE>
+			<ALBUM>Supernatural</ALBUM>
+			<ARTIST>Santana</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Santana\Supernatural\05 - Smooth.mp3</FILENAME>
+			<SIZE>7175609</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>298</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1179</TRACKID>
+			<TITLE>Take Your Mama</TITLE>
+			<ALBUM>Scissor Sisters</ALBUM>
+			<ARTIST>Scissor Sisters</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Scissor Sisters\Scissor Sisters\02 - Take Your Mama.mp3</FILENAME>
+			<SIZE>6533624</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>272</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1177</TRACKID>
+			<TITLE>Laura</TITLE>
+			<ALBUM>Scissor Sisters</ALBUM>
+			<ARTIST>Scissor Sisters</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Scissor Sisters\Scissor Sisters\01 - Laura (2).mp3</FILENAME>
+			<SIZE>5200752</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>216</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1208</TRACKID>
+			<TITLE>Killer</TITLE>
+			<ALBUM>Seal [1991]</ALBUM>
+			<ARTIST>Seal</ARTIST>
+			<GENRE>General R&B</GENRE>
+			<FILENAME>D:\My Documents\My Music\Seal\Seal [1991]\04 - Killer.mp3</FILENAME>
+			<SIZE>9181813</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>382</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1558</TRACKID>
+			<TITLE>Mas Que Nada</TITLE>
+			<ALBUM>Now 64 (Disc 2)</ALBUM>
+			<ARTIST>Sergo Mendes feat. Black Eyed Peas</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Untitled - 07-10-06\08 - Track 8.mp3</FILENAME>
+			<SIZE>5140733</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>214</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1209</TRACKID>
+			<TITLE>Pretty Vacant</TITLE>
+			<ALBUM>Debbie's Dance 3</ALBUM>
+			<ARTIST>Sex Pistols</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Sex Pistols\Debbie's Dance 3\11 - Pretty Vacant.mp3</FILENAME>
+			<SIZE>4768164</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>198</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1215</TRACKID>
+			<TITLE>Hips Don`t Lie - (Featuring W</TITLE>
+			<ALBUM>Oral Fixation, Vol. 2 (Extra)</ALBUM>
+			<ARTIST>Shakira</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Shakira\03-hips_don_t_lie_-_(featuring_wyclef_jean)_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5293039</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>220</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1616</TRACKID>
+			<TITLE>Hips Don't Lie</TITLE>
+			<ALBUM>NOW! 65 [Disc 1]</ALBUM>
+			<ARTIST>Shakira</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\NOW! 65 [Disc 1]\02 - Hips Don't Lie.mp3</FILENAME>
+			<SIZE>5242924</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>218</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1219</TRACKID>
+			<TITLE>Shake UR Body (Sex in the City)</TITLE>
+			<ALBUM>Smash Hits 2002 (Vol 2)</ALBUM>
+			<ARTIST>Shy FX and T-Power</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Shy FX and T-Power\Smash Hits 2002 (Vol 2)\08 - Shake UR Body (Sex in the City).mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2161</TRACKID>
+			<TITLE>Take Back The City</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>Snow Patrol</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\08 - Track 8.mp3</FILENAME>
+			<SIZE>6172507</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>257</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1258</TRACKID>
+			<TITLE>Stuck In The Middle With You (Reservoir Dogs)</TITLE>
+			<ALBUM>Movie Killers</ALBUM>
+			<ARTIST>Steelers Wheel</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Steelers Wheel\Movie Killers\11 - Stuck In The Middle With You (Reservoir Dogs).mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2202</TRACKID>
+			<TITLE>Lion Rock</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Culture</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\07 - Lion Rock.mp3</FILENAME>
+			<SIZE>6270936</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>261</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1696</TRACKID>
+			<TITLE>Free Bird Guitar Solo</TITLE>
+			<ALBUM>The Best Rock Album ...ever! (disc 2)</ALBUM>
+			<ARTIST>Lynyrd Skinner</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\AAAmusic projects\18 - Free Bird Guitar.mp3</FILENAME>
+			<SIZE>2224076</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>128000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>138</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1272</TRACKID>
+			<TITLE>Maybe Tomorrow - Stereophonics</TITLE>
+			<ALBUM>Now 56 (Disc 2)</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Now 56 (Disc 2)\19 - Maybe Tomorrow - Stereophonics.mp3</FILENAME>
+			<SIZE>6623276</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>275</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2231</TRACKID>
+			<TITLE>Maybe Tomorrow</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\06 - Maybe Tomorrow.mp3</FILENAME>
+			<SIZE>6578136</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>273</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1263</TRACKID>
+			<TITLE>Dakota</TITLE>
+			<ALBUM>Language Sex Violence Other</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Language Sex Violence Other\05 - Dakota.mp3</FILENAME>
+			<SIZE>7146937</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>297</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1273</TRACKID>
+			<TITLE>Mr. Writer - Stereophonics</TITLE>
+			<ALBUM>Now That's What I Call Music 48 (Disc 2)</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Now That's What I Call Music 48 (Disc 2)\03 - Mr. Writer - Stereophonics.mp3</FILENAME>
+			<SIZE>6475945</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>269</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2226</TRACKID>
+			<TITLE>Dakota</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\01 - Dakota.mp3</FILENAME>
+			<SIZE>7162443</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>298</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2237</TRACKID>
+			<TITLE>Mr. Writer</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\12 - Mr. Writer.mp3</FILENAME>
+			<SIZE>6427044</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>267</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1271</TRACKID>
+			<TITLE>Have A Nice Day - Stereophonics</TITLE>
+			<ALBUM>Now 49 (Disc 1)</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Now 49 (Disc 1)\08 - Have A Nice Day - Stereophonics.mp3</FILENAME>
+			<SIZE>4919883</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>204</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1274</TRACKID>
+			<TITLE>I Wouldn't Believe Your Radio-Stereophonics</TITLE>
+			<ALBUM>Smash Hits 2000 (Disc 1)</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>General Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Smash Hits 2000 (Disc 1)\20 - I Wouldn't Believe Your Radio-Stereophonics.mp3</FILENAME>
+			<SIZE>5620174</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>234</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1270</TRACKID>
+			<TITLE>Pick A Part That's New - Stereophonics</TITLE>
+			<ALBUM>Now 43 (Disc 2)</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Now 43 (Disc 2)\13 - Pick A Part That's New - Stereophonics.mp3</FILENAME>
+			<SIZE>5169405</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2235</TRACKID>
+			<TITLE>I Wouldn't Believe Your Radio</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\10 - I Wouldn't Believe Your Radio.mp3</FILENAME>
+			<SIZE>5388207</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>224</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2240</TRACKID>
+			<TITLE>It Means Nothing</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\15 - It Means Nothing.mp3</FILENAME>
+			<SIZE>5450273</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>226</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2245</TRACKID>
+			<TITLE>Handbags and Gladrags</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\20 - Handbags and Gladrags.mp3</FILENAME>
+			<SIZE>6707913</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>279</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2229</TRACKID>
+			<TITLE>Have a Nice Day</TITLE>
+			<ALBUM>Decade in the Sun: The Best of Stereophonics</ALBUM>
+			<ARTIST>Stereophonics</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stereophonics\Decade in the Sun- The Best of Stereophonics\04 - Have a Nice Day.mp3</FILENAME>
+			<SIZE>4906718</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>204</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1278</TRACKID>
+			<TITLE>Master Blaster (Jammin')</TITLE>
+			<ALBUM>Hotter Than July</ALBUM>
+			<ARTIST>Stevie Wonder</ARTIST>
+			<GENRE>Soul</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stevie Wonder\Hotter Than July\06 - Master Blaster (Jammin').mp3</FILENAME>
+			<SIZE>7376229</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>307</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1288</TRACKID>
+			<TITLE>No more heroes</TITLE>
+			<ALBUM>the Stranglers - Collection</ALBUM>
+			<ARTIST>Stranglers</ARTIST>
+			<GENRE>New Wave</GENRE>
+			<FILENAME>D:\My Documents\My Music\Stranglers\the Stranglers - Collection\02 - No more heroes.mp3</FILENAME>
+			<SIZE>4968784</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>206</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2146</TRACKID>
+			<TITLE>Girls</TITLE>
+			<ALBUM>Now Thats What I Call Music 71  [Disc 1]</ALBUM>
+			<ARTIST>Sugababes</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 71  [Disc 1]\16 - Track 16.mp3</FILENAME>
+			<SIZE>4600939</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>191</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1560</TRACKID>
+			<TITLE>Tell Me Why</TITLE>
+			<ALBUM>Now 64 (Disc 2)</ALBUM>
+			<ARTIST>Supermode</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Untitled - 07-10-06\14 - Track 14.mp3</FILENAME>
+			<SIZE>4119450</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>171</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1295</TRACKID>
+			<TITLE>Tell Me Why (Radio Edit)</TITLE>
+			<ALBUM>Tell Me Why</ALBUM>
+			<ARTIST>Supermode</ARTIST>
+			<GENRE>Soul</GENRE>
+			<FILENAME>D:\My Documents\My Music\Supermode\Tell Me Why\01-tell_me_why_(radio_edit)_192_lame_cbr.mp3</FILENAME>
+			<SIZE>4182602</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>174</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1300</TRACKID>
+			<TITLE>Debora</TITLE>
+			<ALBUM>The Best Of T.Rex</ALBUM>
+			<ARTIST>T.Rex</ARTIST>
+			<GENRE>Hard Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\T.Rex\The Best Of T.Rex\01 - Debora.mp3</FILENAME>
+			<SIZE>4617072</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>192</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>252</TRACKID>
+			<TITLE>I Saw Her Standing There</TITLE>
+			<ALBUM>The Capitol Albums Vol. 1, CD</ALBUM>
+			<ARTIST>The Beatles</ARTIST>
+			<GENRE></GENRE>
+			<FILENAME>D:\My Documents\My Music\Beatles\02-i_saw_her_standing_there_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>4207014</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>175</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1316</TRACKID>
+			<TITLE>Think</TITLE>
+			<ALBUM>The Blues Brothers Soundtrack</ALBUM>
+			<ARTIST>The Blues Brothers</ARTIST>
+			<GENRE>Film Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Blues Brothers\The Blues Brothers Soundtrack\07 - Think.mp3</FILENAME>
+			<SIZE>4670362</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>194</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1316</TRACKID>
+			<TITLE>Think</TITLE>
+			<ALBUM>The Blues Brothers Soundtrack</ALBUM>
+			<ARTIST>The Blues Brothers</ARTIST>
+			<GENRE>Film Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Blues Brothers\The Blues Brothers Soundtrack\07 - Think.mp3</FILENAME>
+			<SIZE>4670362</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>194</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1315</TRACKID>
+			<TITLE>Everybody Needs Somebody To Love</TITLE>
+			<ALBUM>The Blues Brothers Soundtrack</ALBUM>
+			<ARTIST>The Blues Brothers</ARTIST>
+			<GENRE>Film Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Blues Brothers\The Blues Brothers Soundtrack\05 - Everybody Needs Somebody To Love.mp3</FILENAME>
+			<SIZE>4870982</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>202</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1313</TRACKID>
+			<TITLE>Peter Gunn Theme</TITLE>
+			<ALBUM>The Blues Brothers Soundtrack</ALBUM>
+			<ARTIST>The Blues Brothers</ARTIST>
+			<GENRE>Film Soundtrack</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Blues Brothers\The Blues Brothers Soundtrack\02 - Peter Gunn Theme.mp3</FILENAME>
+			<SIZE>5419553</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>225</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1317</TRACKID>
+			<TITLE>Ever Fallen In Love (With ..)</TITLE>
+			<ALBUM>Cigarettes & Alcohol (Disc 2)</ALBUM>
+			<ARTIST>The Buzzcocks</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Buzzcocks\Cigarettes & Alcohol (Disc 2)\07 - Ever Fallen In Love (With ..).mp3</FILENAME>
+			<SIZE>3867880</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>161</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1319</TRACKID>
+			<TITLE>One To Another - The Charlatans</TITLE>
+			<ALBUM>Totp - The Cutting Edge (Disc 1)</ALBUM>
+			<ARTIST>The Charlatans</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Charlatans\Totp - The Cutting Edge (Disc 1)\06 - One To Another - The Charlatans.mp3</FILENAME>
+			<SIZE>6524847</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>271</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1324</TRACKID>
+			<TITLE>Block Rockin' Beats</TITLE>
+			<ALBUM>Dig Your Own Hole</ALBUM>
+			<ARTIST>The Chemical Brothers</ARTIST>
+			<GENRE>Big Beat</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Chemical Brothers\Dig Your Own Hole\01 - Block Rockin' Beats.mp3</FILENAME>
+			<SIZE>7576850</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>315</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1329</TRACKID>
+			<TITLE>Chemical Beats</TITLE>
+			<ALBUM>Exit Planet Dust</ALBUM>
+			<ARTIST>The Chemical Brothers</ARTIST>
+			<GENRE>Big Beat</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Chemical Brothers\Exit Planet Dust\06 - Chemical Beats.mp3</FILENAME>
+			<SIZE>6974989</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>290</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1327</TRACKID>
+			<TITLE>Three Little Birdies Down Beats</TITLE>
+			<ALBUM>Exit Planet Dust</ALBUM>
+			<ARTIST>The Chemical Brothers</ARTIST>
+			<GENRE>Big Beat</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Chemical Brothers\Exit Planet Dust\04 - Three Little Birdies Down Beats.mp3</FILENAME>
+			<SIZE>8178711</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>340</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2263</TRACKID>
+			<TITLE>In the Morning</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>The Coral</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\12 - In the Morning.mp3</FILENAME>
+			<SIZE>3689202</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>153</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>414</TRACKID>
+			<TITLE>Bohemian Like You</TITLE>
+			<ALBUM>Thirteen Tales From Urban Boh</ALBUM>
+			<ARTIST>The Dandy Warhols</ARTIST>
+			<GENRE>Techno</GENRE>
+			<FILENAME>D:\My Documents\My Music\Dandy Warhols\Thirteen Tales From Urban Bohemia\10-bohemian_like_you_192_lame_cbr.mp3</FILENAME>
+			<SIZE>5083973</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>211</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>404</TRACKID>
+			<TITLE>Horny</TITLE>
+			<ALBUM>Now Dance 2007</ALBUM>
+			<ARTIST>The Dandy Warhols</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Dandy Warhols\Now Dance 2007\09-mousse_t_vs_dandy_warhols_-_horny_as_a_dandy_192_lame_cbr.mp3</FILENAME>
+			<SIZE>4745554</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>197</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2285</TRACKID>
+			<TITLE>Never Been Lonely</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>The Feeling</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\13 - Never Been Lonely.mp3</FILENAME>
+			<SIZE>5080380</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>211</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1361</TRACKID>
+			<TITLE>Yoshimi Battles The Pink Robo</TITLE>
+			<ALBUM>Yoshimi Battles The Pink Robo</ALBUM>
+			<ARTIST>The Flaming Lips</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Flaming Lips\03-yoshimi_battles_the_pink_robots_pt_1_192_lame_cbr.mp3</FILENAME>
+			<SIZE>6863353</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>285</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2290</TRACKID>
+			<TITLE>The Beginning of the Twist</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>The Futurheads</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\18 - The Beginning of the Twist.mp3</FILENAME>
+			<SIZE>5093545</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>212</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1711</TRACKID>
+			<TITLE>Generator</TITLE>
+			<ALBUM>Radio 1's Live Lounge, Vol. 2</ALBUM>
+			<ARTIST>The Holloways</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Radio 1's Live Lounge, Vol. 2\15 - Generator.mp3</FILENAME>
+			<SIZE>4099847</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>170</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1366</TRACKID>
+			<TITLE>Down In The Tube Station At Midnight</TITLE>
+			<ALBUM>The Jam - Greatest Hits</ALBUM>
+			<ARTIST>The Jam</ARTIST>
+			<GENRE>Power Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Jam\The Jam - Greatest Hits\06 - Down In The Tube Station At Midnight.mp3</FILENAME>
+			<SIZE>5771266</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>240</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1368</TRACKID>
+			<TITLE>Going Underground</TITLE>
+			<ALBUM>The Jam - Greatest Hits</ALBUM>
+			<ARTIST>The Jam</ARTIST>
+			<GENRE>Power Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Jam\The Jam - Greatest Hits\10 - Going Underground.mp3</FILENAME>
+			<SIZE>4166303</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>173</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1370</TRACKID>
+			<TITLE>Town Called Malice</TITLE>
+			<ALBUM>The Jam - Greatest Hits</ALBUM>
+			<ARTIST>The Jam</ARTIST>
+			<GENRE>Power Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Jam\The Jam - Greatest Hits\15 - Town Called Malice.mp3</FILENAME>
+			<SIZE>4117402</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>171</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1387</TRACKID>
+			<TITLE>The Good Ones</TITLE>
+			<ALBUM>No Wow</ALBUM>
+			<ARTIST>The Kills</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Kills\No Wow\04 - Track 4.mp3</FILENAME>
+			<SIZE>5037915</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>209</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1397</TRACKID>
+			<TITLE>You Really Got Me</TITLE>
+			<ALBUM>Cigarettes & Alcohol (Disc 1)</ALBUM>
+			<ARTIST>The Kinks</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Kinks\Cigarettes & Alcohol (Disc 1)\18 - You Really Got Me.mp3</FILENAME>
+			<SIZE>3212729</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>133</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1398</TRACKID>
+			<TITLE>All Day and All of The Night</TITLE>
+			<ALBUM>Comilation - Golden Greats</ALBUM>
+			<ARTIST>The Kinks</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Kinks\Comilation - Golden Greats\15 - All Day and All of The Night.mp3</FILENAME>
+			<SIZE>3413349</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>142</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1928</TRACKID>
+			<TITLE>She Moves in Her Own Way</TITLE>
+			<ALBUM>The Saturday Sessions: The Dermot O'Leary Show'</ALBUM>
+			<ARTIST>The Kooks</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\The Saturday Sessions- The Dermot O'Leary Show'\02 - She Moves in Her Own Way.mp3</FILENAME>
+			<SIZE>4017259</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>167</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1636</TRACKID>
+			<TITLE>She Moves In Her Own Way</TITLE>
+			<ALBUM>Now 64 (Disc 1)</ALBUM>
+			<ARTIST>The Kooks</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 64\08 - Track 8.mp3</FILENAME>
+			<SIZE>4039201</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>168</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1757</TRACKID>
+			<TITLE>Ooh La</TITLE>
+			<ALBUM>Inside In/Inside Out</ALBUM>
+			<ARTIST>The Kooks</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Kooks\Inside In-Inside Out\05 - Ooh La.mp3</FILENAME>
+			<SIZE>5018313</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>208</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2256</TRACKID>
+			<TITLE>Always Where I Need to Be</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>The Kooks</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\05 - Always Where I Need to Be.mp3</FILENAME>
+			<SIZE>3863491</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>160</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1559</TRACKID>
+			<TITLE>Nine2Five</TITLE>
+			<ALBUM>Now 64 (Disc 2)</ALBUM>
+			<ARTIST>The Ordinary Boys vs Lady Sovereign</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Untitled - 07-10-06\09 - Track 9.mp3</FILENAME>
+			<SIZE>4368971</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>181</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1422</TRACKID>
+			<TITLE>Bring On The Night</TITLE>
+			<ALBUM>Message In A Box: The Complete Recordings (Disc 1)</ALBUM>
+			<ARTIST>The Police</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Police\Message In A Box- The Complete Recordings (Disc 1)\19 - Bring On The Night.mp3</FILENAME>
+			<SIZE>6074704</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>253</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1420</TRACKID>
+			<TITLE>Can't Stand Losing You</TITLE>
+			<ALBUM>Message In A Box: The Complete Recordings (Disc 1)</ALBUM>
+			<ARTIST>The Police</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Police\Message In A Box- The Complete Recordings (Disc 1)\09 - Can't Stand Losing You.mp3</FILENAME>
+			<SIZE>4269121</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>177</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1421</TRACKID>
+			<TITLE>Reggatta De Blanc</TITLE>
+			<ALBUM>Message In A Box: The Complete Recordings (Disc 1)</ALBUM>
+			<ARTIST>The Police</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Police\Message In A Box- The Complete Recordings (Disc 1)\17 - Reggatta De Blanc.mp3</FILENAME>
+			<SIZE>4416451</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>183</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1447</TRACKID>
+			<TITLE>Breathe</TITLE>
+			<ALBUM>The Fat Of The Land</ALBUM>
+			<ARTIST>The Prodigy</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Prodigy\The Fat Of The Land\02 - Breathe.mp3</FILENAME>
+			<SIZE>8080909</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>336</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1444</TRACKID>
+			<TITLE>One Love</TITLE>
+			<ALBUM>Music For The Jilted Generation</ALBUM>
+			<ARTIST>The Prodigy</ARTIST>
+			<GENRE>General Techno</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Prodigy\Music For The Jilted Generation\10 - One Love.mp3</FILENAME>
+			<SIZE>5620174</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>234</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1448</TRACKID>
+			<TITLE>Firestarter</TITLE>
+			<ALBUM>The Fat Of The Land</ALBUM>
+			<ARTIST>The Prodigy</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Prodigy\The Fat Of The Land\08 - Firestarter.mp3</FILENAME>
+			<SIZE>6774368</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>282</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1446</TRACKID>
+			<TITLE>Smack My Bitch Up</TITLE>
+			<ALBUM>The Fat Of The Land</ALBUM>
+			<ARTIST>The Prodigy</ARTIST>
+			<GENRE>General House</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Prodigy\The Fat Of The Land\01 - Smack My Bitch Up.mp3</FILENAME>
+			<SIZE>8281529</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>344</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1464</TRACKID>
+			<TITLE>Brown Sugar</TITLE>
+			<ALBUM>Jump Back:The Best of the Rolling Stones 1971-1993</ALBUM>
+			<ARTIST>The Rolling Stones</ARTIST>
+			<GENRE>Classic Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Rolling Stones\Jump Back-The Best of the Rolling Stones 1971-1993\02 - Brown Sugar.mp3</FILENAME>
+			<SIZE>5521744</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>229</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1472</TRACKID>
+			<TITLE>You Can't Always Get What You Want</TITLE>
+			<ALBUM>Rolling Stones Rock And Roll Circus [Live]</ALBUM>
+			<ARTIST>The Rolling Stones</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Rolling Stones\Rolling Stones Rock And Roll Circus [Live]\17 - You Can't Always Get What You Want.mp3</FILENAME>
+			<SIZE>6373127</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>265</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1470</TRACKID>
+			<TITLE>Jumping Jack Flash (With John Lennon's Introduction)</TITLE>
+			<ALBUM>Rolling Stones Rock And Roll Circus [Live]</ALBUM>
+			<ARTIST>The Rolling Stones</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Rolling Stones\Rolling Stones Rock And Roll Circus [Live]\14 - Jumping Jack Flash (With John Lennon's Introduction).mp3</FILENAME>
+			<SIZE>5169405</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>215</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1473</TRACKID>
+			<TITLE>Sympathy For The Devil</TITLE>
+			<ALBUM>Rolling Stones Rock And Roll Circus [Live]</ALBUM>
+			<ARTIST>The Rolling Stones</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Rolling Stones\Rolling Stones Rock And Roll Circus [Live]\18 - Sympathy For The Devil.mp3</FILENAME>
+			<SIZE>12744079</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>530</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1603</TRACKID>
+			<TITLE>You Got The Love - The Source (Featuring Candi Staton)</TITLE>
+			<ALBUM>Now 63 [Disc 2]</ALBUM>
+			<ARTIST>The Source</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 63 [Disc 2]\17 - You Got The Love - The Source (Featuring Candi Staton).mp3</FILENAME>
+			<SIZE>4605327</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>191</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1479</TRACKID>
+			<TITLE>Up The Junction</TITLE>
+			<ALBUM>Cigarettes & Alcohol (Disc 1)</ALBUM>
+			<ARTIST>The Squeeze</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Squeeze\Cigarettes & Alcohol (Disc 1)\15 - Up The Junction.mp3</FILENAME>
+			<SIZE>4518642</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>188</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1938</TRACKID>
+			<TITLE>This Charming Man</TITLE>
+			<ALBUM>The Saturday Sessions: The Dermot O'Leary Show'</ALBUM>
+			<ARTIST>The Stars</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\The Saturday Sessions- The Dermot O'Leary Show'\12 - This Charming Man.mp3</FILENAME>
+			<SIZE>3954565</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>164</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1480</TRACKID>
+			<TITLE>No More Heroes</TITLE>
+			<ALBUM>Debbie's Dance 4</ALBUM>
+			<ARTIST>The Stranglers</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Stranglers\Debbie's Dance 4\12 - No More Heroes.mp3</FILENAME>
+			<SIZE>5071602</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>211</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2159</TRACKID>
+			<TITLE>Shut Up And Let Me Go</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>The Ting Tings</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\06 - Track 6.mp3</FILENAME>
+			<SIZE>4130567</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>171</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2196</TRACKID>
+			<TITLE>Teenage Kicks</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>The Undertones</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\01 - Teenage Kicks.mp3</FILENAME>
+			<SIZE>3515540</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>146</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1489</TRACKID>
+			<TITLE>Lucky Man</TITLE>
+			<ALBUM>Urban Hymns</ALBUM>
+			<ARTIST>The Verve</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Verve\Urban Hymns\09 - Lucky Man.mp3</FILENAME>
+			<SIZE>7077807</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>294</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1488</TRACKID>
+			<TITLE>Weeping Willow</TITLE>
+			<ALBUM>Urban Hymns</ALBUM>
+			<ARTIST>The Verve</ARTIST>
+			<GENRE>Brit Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\The Verve\Urban Hymns\08 - Weeping Willow.mp3</FILENAME>
+			<SIZE>6974989</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>290</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2162</TRACKID>
+			<TITLE>Love Is Noise Love Is Noise</TITLE>
+			<ALBUM>Now 71  [Disc 2]</ALBUM>
+			<ARTIST>The Verve</ARTIST>
+			<GENRE>Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now 71  [Disc 2]\09 - Track 9.mp3</FILENAME>
+			<SIZE>5851514</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>243</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2260</TRACKID>
+			<TITLE>Same Jeans</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>The View</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\09 - Same Jeans.mp3</FILENAME>
+			<SIZE>5147462</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>214</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1653</TRACKID>
+			<TITLE>Valerie</TITLE>
+			<ALBUM>Tired Of Hanging Around</ALBUM>
+			<ARTIST>The Zutons</ARTIST>
+			<GENRE>Blues</GENRE>
+			<FILENAME>D:\My Documents\My Music\Zutons\Zutons 2006\03-valerie_192_lame_cbr_ex.mp3</FILENAME>
+			<SIZE>5672797</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>236</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1729</TRACKID>
+			<TITLE>Valerie</TITLE>
+			<ALBUM>Radio 1's Live Lounge, Vol. 2</ALBUM>
+			<ARTIST>The Zutons</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Radio 1's Live Lounge, Vol. 2\13 - Valerie.mp3</FILENAME>
+			<SIZE>5650894</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>235</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1982</TRACKID>
+			<TITLE>Sloe on the Uptake</TITLE>
+			<ALBUM>The Imagined Village</ALBUM>
+			<ARTIST>Tiger Moth</ARTIST>
+			<GENRE>World</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\The Imagined Village\11 - Sloe on the Uptake.mp3</FILENAME>
+			<SIZE>5124892</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>213</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2254</TRACKID>
+			<TITLE>Shut Up and Let Me Go</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Ting Tings</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\03 - Shut Up and Let Me Go.mp3</FILENAME>
+			<SIZE>4126179</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>171</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2177</TRACKID>
+			<TITLE>Debora</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>T-Rex</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\02 - Debora.mp3</FILENAME>
+			<SIZE>4514254</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>187</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1551</TRACKID>
+			<TITLE>Teenage Kicks</TITLE>
+			<ALBUM>The Best Air Guitar Album In The World Ever 2 (Disc 1)</ALBUM>
+			<ARTIST>Undertones</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Undertones\The Best Air Guitar Album In The World Ever 2 (Disc 1)\19 - Teenage Kicks.mp3</FILENAME>
+			<SIZE>3515540</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>146</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1554</TRACKID>
+			<TITLE>Born Slippy - Underworld</TITLE>
+			<ALBUM>Totp - The Cutting Edge (Disc 1)</ALBUM>
+			<ARTIST>Underworld</ARTIST>
+			<GENRE>General Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Underworld\Totp - The Cutting Edge (Disc 1)\10 - Born Slippy - Underworld.mp3</FILENAME>
+			<SIZE>6324226</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>263</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1553</TRACKID>
+			<TITLE>King of Snake</TITLE>
+			<ALBUM>From The Guardian Orbital etc.</ALBUM>
+			<ARTIST>Underworld</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Underworld\From The Guardian Orbital etc\05 - King of Snake.mp3</FILENAME>
+			<SIZE>5570646</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>232</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>542</TRACKID>
+			<TITLE>Wonderful Tonight</TITLE>
+			<ALBUM>Free Guardian CD</ALBUM>
+			<ARTIST>Unknown</ARTIST>
+			<GENRE>General Alternative</GENRE>
+			<FILENAME>D:\My Documents\My Music\Free Guardian CD\01 - Wonderful Tonight.mp3</FILENAME>
+			<SIZE>6930476</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>288</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1588</TRACKID>
+			<TITLE>Moondance</TITLE>
+			<ALBUM>The Best Of</ALBUM>
+			<ARTIST>Van Morrison</ARTIST>
+			<GENRE>Folk-Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Van Morrison\The Best Of\03 - Moondance.mp3</FILENAME>
+			<SIZE>6524847</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>271</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2180</TRACKID>
+			<TITLE>Sweet Thing</TITLE>
+			<ALBUM>John Peel: A Tribute</ALBUM>
+			<ARTIST>Van Morrison</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\John Peel- A Tribute\05 - Sweet Thing.mp3</FILENAME>
+			<SIZE>6275325</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>261</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1591</TRACKID>
+			<TITLE>Brown Eyed Girl</TITLE>
+			<ALBUM>The Best Of</ALBUM>
+			<ARTIST>Van Morrison</ARTIST>
+			<GENRE>Folk-Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Van Morrison\The Best Of\06 - Brown Eyed Girl.mp3</FILENAME>
+			<SIZE>4416451</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>183</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2259</TRACKID>
+			<TITLE>Your Love Alone Is Not Enough</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Various Artists</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\08 - Your Love Alone Is Not Enough.mp3</FILENAME>
+			<SIZE>5673464</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>236</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1647</TRACKID>
+			<TITLE>Teenage Dirtbag - Wheatus</TITLE>
+			<ALBUM>Now 49 (Disc 1)</ALBUM>
+			<ARTIST>Wheatus</ARTIST>
+			<GENRE>General Pop</GENRE>
+			<FILENAME>D:\My Documents\My Music\Wheatus\Now 49 (Disc 1)\09 - Teenage Dirtbag - Wheatus.mp3</FILENAME>
+			<SIZE>5820794</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>242</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>1641</TRACKID>
+			<TITLE>Valerie</TITLE>
+			<ALBUM>Now 64 (Disc 1)</ALBUM>
+			<ARTIST>Zutons</ARTIST>
+			<GENRE>Unknown</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Now Thats What I Call Music 64\14 - Track 14.mp3</FILENAME>
+			<SIZE>5666735</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>235</DURATION>
+		</TRACK>
+		<TRACK>
+			<TRACKID>2286</TRACKID>
+			<TITLE>Valerie</TITLE>
+			<ALBUM>Q the Album 2008</ALBUM>
+			<ARTIST>Zutons</ARTIST>
+			<GENRE>Rock</GENRE>
+			<FILENAME>D:\My Documents\My Music\Various Artists\Q the Album 2008\14 - Valerie.mp3</FILENAME>
+			<SIZE>5575034</SIZE>
+			<FORMAT>.mp3</FORMAT>
+			<QUALITY>192000</QUALITY>
+			<CHANNELS>2</CHANNELS>
+			<DURATION>232</DURATION>
+		</TRACK>
+	</TRACKLIST>
+</PACKAGE>

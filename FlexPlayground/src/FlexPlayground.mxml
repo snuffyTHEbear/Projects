@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:mx="library://ns.adobe.com/flex/halo" 
+	minWidth="640" minHeight="480"
+	creationComplete="init()" xmlns:ns1="*" width="640" height="480" pageTitle="FLVPlaybackTest">
+	<s:layout>
+		<s:BasicLayout/>
+	</s:layout>
+	
+	<fx:Script>
+		<![CDATA[
+			import fl.video.FLVPlayback;
+			
+			private var _v:FLVPlayback;
+			
+			private function init():void
+			{
+				_v = new FLVPlayback();
+				cont.addChild(_v);
+				_v.skin = ("SkinOverAll.swf");
+				_v.play("http://skysoftwarehouse.com/newskyp/video/clip01.flv");
+			}
+		]]>
+	</fx:Script>
+	
+	<ns1:FlashContainerPlaceholder id="cont" width="200" x="10" height="200" y="10">
+	</ns1:FlashContainerPlaceholder>
+	
+	
+</s:Application>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	layout="absolute" 
+	horizontalAlign="center" 
+	backgroundGradientAlphas="[1.0, 1.0]" 
+	backgroundGradientColors="[#000000, #000000]"
+	xmlns:rtc="CocomoNameSpace">
+	
+	<!-- 
+		You would likely use external authentication here for a deployed application; 
+		you would certainly not hard code Adobe IDs here.
+	-->
+	<rtc:AdobeHSAuthenticator 
+		id="auth" 
+		userName="snuffyindustries@gmail.com" 
+		password="snuffy"  />
+	
+<rtc:ConnectSessionContainer 
+	roomURL="http://connectnow.acrobat.com/snuffythebear/arcticcode" 
+	id="cSession" 
+	authenticator="{auth}">
+
+    <mx:VBox borderStyle="solid" 
+        paddingTop="10"
+        paddingBottom="10" 
+        paddingLeft="5" 
+        paddingRight="5" 
+        width="382" 
+        horizontalCenter="0" 
+        top="5" 
+        backgroundColor="#767676" 
+        cornerRadius="15" 
+        borderThickness="3" height="640" horizontalAlign="left">
+	     <mx:Label text="Simple Pods Sample" color="#FAFCFC" fontWeight="bold" width="340" textAlign="center" fontSize="12"/>
+	     <mx:Panel width="365" height="97" layout="absolute" title="Current room users" color="#000000">
+	     <mx:List 
+			width="100%" height="100%" 
+			dataProvider="{cSession.userManager.userCollection}" 
+			labelField="displayName" color="#000000" fontWeight="bold"/>
+	     </mx:Panel>
+	     <mx:Panel width="365" height="200" layout="absolute" title="Default WebCamera" color="#000000" backgroundColor="#000000">
+			<rtc:WebCamera width="100%" height="150"/>
+	     </mx:Panel>
+	    	<rtc:AudioPublisher id="audioPub"/><rtc:AudioSubscriber/>
+		<mx:Button label="Audio" 
+			toggle="true" id="audioButt" color="#000000"
+			click="(audioButt.selected) ? audioPub.publish() : audioPub.stop()"/>
+	     <mx:Panel width="365" height="235" layout="absolute" title="Default Simple Chat" color="#000000">
+			<rtc:SimpleChat width="100%" height="100%"/>
+	     </mx:Panel>
+
+    </mx:VBox>
+	
+</rtc:ConnectSessionContainer>
+</mx:Application>

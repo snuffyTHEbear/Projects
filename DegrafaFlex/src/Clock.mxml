@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	layout="absolute"
+	width="640" height="480"
+	backgroundGradientColors="[#333333, #666666]"
+	xmlns:degrafa="http://www.degrafa.com/2007" 
+	xmlns:collections="com.degrafa.core.collections.*"
+	creationComplete="initTime()">
+	
+	<mx:Script>
+		<![CDATA[
+			
+			private var clockTicker:Timer = new Timer(1000);
+			
+			public function initTime():void
+			{
+				setTime(new Date());
+				clockTicker.addEventListener(TimerEvent.TIMER, initDraw);
+				clockTicker.start();
+			}
+			
+			private function initDraw(e:TimerEvent):void
+			{
+				setTime(new Date());
+			}
+			
+			public function setTime(time:Date):void
+			{
+				var cSeconds:Number = time.getSeconds();
+				var cMinutes:Number = time.getMinutes();
+				var cHours:Number = time.getHours();
+				secondHand.rotation = 268 + (cSeconds * 6);
+				minuteHand.rotation = 268 + (cMinutes * 6);
+				hourHand.rotation = 268 + (cHours * 30) + (cMinutes * 0.5);
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<degrafa:Surface x="100" y="100">
+		
+		<degrafa:GeometryGroup id="clockFace">
+			
+			<degrafa:fills>
+							
+				<degrafa:RadialGradientFill cx="40" cy="20" radius="440" id="gradFill">
+					
+					<degrafa:GradientStop color="#444"/>
+					<degrafa:GradientStop color="#000"/>
+					
+				</degrafa:RadialGradientFill>
+				
+				<degrafa:SolidFill color="#FFFFFF" id="whiteFill"/>
+				
+			</degrafa:fills>
+			
+			<degrafa:strokes>
+				
+				<degrafa:SolidStroke id="redStroke" color="#C50" weight="10" caps="none"/>
+				<degrafa:SolidStroke id="greyStroke" color="#666" weight="2" caps="none"/>
+								
+			</degrafa:strokes>
+			
+			<degrafa:RegularRectangle width="360" height="360" fill="{gradFill}"/>
+			
+			<degrafa:Polygon x="74" y="90" fill="{whiteFill}">
+				
+				<degrafa:points>
+					<degrafa:GraphicPoint x="1.716" y=".868"/>         
+				    <degrafa:GraphicPoint x="91.638" y=".868"/>         
+				    <degrafa:GraphicPoint x="92.329" y="21.965"/>         
+				    <degrafa:GraphicPoint x="30.768" y="21.965"/>         
+				    <degrafa:GraphicPoint x="30.768" y="71.768"/>         
+				    <degrafa:GraphicPoint x="85.758" y="71.768"/>         
+				    <degrafa:GraphicPoint x="85.758" y="95.632"/>         
+				    <degrafa:GraphicPoint x="30.768" y="95.632"/>         
+				    <degrafa:GraphicPoint x="30.768" y="164.11"/>         
+				    <degrafa:GraphicPoint x="1.37" y="164.11"/>
+				</degrafa:points>
+				
+			</degrafa:Polygon>
+			
+			<degrafa:Polygon x="178" y="140" fill="{whiteFill}">
+				
+				<degrafa:points>
+					<degrafa:GraphicPoint x="1.107" y=".147"/>         
+				    <degrafa:GraphicPoint x="32.926" y=".147"/>         
+				    <degrafa:GraphicPoint x="54.022" y="39.574"/>         
+				    <degrafa:GraphicPoint x="76.503" y=".147"/>         
+				    <degrafa:GraphicPoint x="105.209" y=".147"/>         
+				    <degrafa:GraphicPoint x="72.354" y="54.446"/>         
+				    <degrafa:GraphicPoint x="108.322" y="113.932"/>         
+				    <degrafa:GraphicPoint x="73.736" y="113.932"/>         
+				    <degrafa:GraphicPoint x="52.256" y="73.43"/>         
+				    <degrafa:GraphicPoint x="32.505" y="113.241"/>         
+				    <degrafa:GraphicPoint x=".07" y="113.241"/>         
+				    <degrafa:GraphicPoint x="34.31" y="58.596"/>
+				</degrafa:points>
+				
+			</degrafa:Polygon>
+			
+		</degrafa:GeometryGroup>
+		
+		<degrafa:GeometryGroup id="secondHand" x="180" y="180">
+			<degrafa:HorizontalLine x="0" x1="160" y="0" stroke="{greyStroke}"/>
+		</degrafa:GeometryGroup>
+		
+		<degrafa:GeometryGroup id="minuteHand" x="180" y="180">
+			<degrafa:HorizontalLine x="0" x1="150" y="0" stroke="{redStroke}"/>
+		</degrafa:GeometryGroup>
+		
+		<degrafa:GeometryGroup id="hourHand" x="180" y="180">
+			<degrafa:HorizontalLine x="0" x1="100" y="0" stroke="{redStroke}"/>
+		</degrafa:GeometryGroup>
+		
+	</degrafa:Surface>
+	
+</mx:Application>

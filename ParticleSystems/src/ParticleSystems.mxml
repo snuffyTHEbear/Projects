@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+				layout="absolute"
+				width="740" height="580"
+				backgroundGradientColors="[#666D7A,#666D7A]"
+				applicationComplete="init()">
+	
+	<mx:Style source="/style/style.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import org.papervision3d.objects.primitives.Plane;
+			import org.papervision3d.objects.primitives.Sphere;
+			import org.papervision3d.view.BasicView;
+			
+			[Embed(source="assets/Tekuteku.TTF", fontName="Tekuteku", mimeType="application/x-font")]
+			private var Tekuteku:Class;
+			
+			private var view:BasicView;
+			
+			private function init():void
+			{
+				view = new BasicView(740,580,true,true);
+				rawChildren.addChild(view);
+				
+				view.scene.addChild(new Sphere());
+				view.singleRender();
+			}
+			
+		]]>
+	</mx:Script>
+	<mx:Panel>
+		
+		<mx:Button label="Button" x="50" y="50"/>
+		
+	</mx:Panel>
+	
+</mx:Application>

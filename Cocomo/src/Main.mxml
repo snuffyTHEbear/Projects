@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:ns1="com.adobe.rtc.pods.*" width="600" height="400" backgroundColor="0xffffff">
+	<mx:Panel width="580" height="380" layout="absolute" horizontalCenter="0" verticalCenter="0" title="Title" id="mainPanel" borderColor="#B5B3FF">
+		<mx:Button x="105" y="40" label="Update!" id="titleBtn" enabled="true" click="mainPanel.title=input.text"/>
+		<mx:TextInput x="10" y="10" id="input" text="Title" maxChars="25" displayAsPassword="false" editable="true" enabled="true"/>
+	</mx:Panel>
+</mx:Application>

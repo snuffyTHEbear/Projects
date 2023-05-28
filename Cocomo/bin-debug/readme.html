@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Real Time Collaboration Example Applications</title>
+<style>
+body {
+	font-family: verdana, arial, helvetica, sans serif; 
+	font-size: 12px;
+	margin: 50px, 150px, 0px, 50px;
+	}
+li {
+	line-height: 17px;
+	margin-top: 7px;
+	list-style: square;
+	}
+div {
+	background-color: #f5f5f5;
+	padding: 20px;
+	width: 750px;
+	margin: 20px;
+	}
+</style>
+</head>
+
+<body>
+<img src="../docs/index_files/logo.gif" width="332" height="34" alt="">
+
+<div>
+<h1>Example Applications</h1>
+
+The SDK delivers a few sample applications that provide working code you can 
+install and run. Some of these demos are rudimentary and focus on a particular 
+technique rather than a rich user interface. Others are more complete and may 
+prove useful for your own applications. 
+<p>
+</p>
+All of the samples exist in the <code>examples</code> directory under the root 
+SDK install location:  
+<ul>
+	<li><strong>Audio</strong>: Uses an audio publisher and subscriber and shows to change various audio settings such as gain, silenceLevel, echoSuppression, and so on via AudioPublisher properties. All users other than the person running the demo can hear the published audio.</li>
+
+	<li><strong>ComplexObjectTransfer</strong>: Demonstrates the use of the <code>registerBodyClass</code> method in <code>MessageItem</code> for passing items containing complex objects over the Cocomo service. </li>
+
+	<li><strong>CustomRoster</strong>: Demonstrates how to use UserManager and UserRoles to promote, demote, and remove people by calling various UserManager API's and listening to its events to make user interface changes. </li>
+
+	<li><strong>DefaultPods</strong>: A simple first application demonstrating the use of the default pods as well as basic authentication and session creation.</li>
+
+	<li><strong>ExternalAuthentication</strong>: </li>
+	
+	<li><strong>FilePublisher</strong>: Shows how to upload, download, delete, and display files via Cocomo's API FileManager, FilePublisher, and FileSubscriber components.</li>
+
+	<li><strong>KnockingQueue</strong>: Demonstrates the use of a knocking queue. When a user or users arrive at a room whose 
+state is knocking (guestsHaveToKnock = true in RoomManager), and the host is there, the users are placed in a pending queue. The host sees the pending, accepted, denied queue and a chat window. Once a user is accepted, they see a chat; if they are not accepted, they see a blank screen.</li>
+
+	<li><strong>LocalConnection</strong>: A simple white board application that shows how to connect to the local server tool included in the extras directory. LocalConnectionServer.air allows offline development and testing of non-streaming components.</li>
+
+	<li><strong>LoginDialog</strong>: A user interface showing login mechanism that allows you to log in as a member or guest.</li>
+	
+		<li><strong>Multiple Groups</strong>: Demonstrates how to use multiple pod groups such as camera, chat, and note within a room. Grouping is useful for building applications that support private chats, private groups, etc. and where users can be divided into groups each of which see a different user interface.</li>
+
+		<li><strong>Shared Collection</strong>: Shows how to use a SharedCollection model for having  synchronized lists and datagrids. In this case, we are using a synchronized datagrid to add, remove, edit items, and any newly arrived user can see the updated list.</li>
+
+	<li><strong>SharedModel</strong>: A better user interface showing several pod types as well as a standard log in mechanism.</li>
+	
+	<li><strong>SimpleChat</strong>: Shows how this shared model can be made easily bindable for MXML.</li>
+	
+	<li><strong>WebCamera</strong>: Demonstrates how the camera component can be used with a publisher and a number of subscribers. The publisher has a big view while subscribers have a small view. A shared property is used to pass the stream to the publisher's user interface. Every user is provided with play and pause handlers.</li>
+
+	<li><strong>YahooMaps</strong>: A working application using ActionScript 3 components that leverages Yahoo Maps.</li>
+</ul>
+</div>
+
+</body>
+</html>

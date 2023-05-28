@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:degrafa="http://www.degrafa.com/2007"
+	layout="absolute" 
+	backgroundGradientAlphas="[0.75, 1.0]" 
+	backgroundGradientColors="[#666666, #666666]"
+	width="640" height="480" xmlns:paint="com.degrafa.paint.*">
+	
+	<mx:Canvas id="myCanvas" x="10" y="10" width="620" height="460">
+		
+	</mx:Canvas>
+	
+	<degrafa:GeometryComposition graphicsTarget="{[myCanvas]}">
+		
+		<degrafa:fills>
+			<degrafa:SolidFill alpha="1" color="#FFF" id="white"/>
+		</degrafa:fills>
+	
+		<degrafa:Circle radius="75" centerX="120" centerY="120" fill="{white}"/>
+		
+	</degrafa:GeometryComposition>
+	
+</mx:Application>

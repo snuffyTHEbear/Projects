@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns="http://www.degrafa.com/2008"
+	layout="absolute"
+	backgroundGradientColors="[#333333,#666666]"
+	width="640" height="480" xmlns:degrafa="http://www.degrafa.com/2007">
+	
+	<mx:Style source="assets/style/style.css"/>
+	
+	<mx:Label text="Test" top="30" right="30" styleName="template"/>
+	
+</mx:Application>

@@ -1,0 +1,1 @@
+Flex builder will display an error message if there is no libs directory in the project.

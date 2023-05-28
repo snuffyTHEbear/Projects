@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1268693876086" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.0.0.v20080603-7r7xEHJEJkZu5nE6Q4Qrtvu6JZ9L/" version="1.0.0.v20080603-7r7xEHJEJkZu5nE6Q4Qrtvu6JZ9L">
+</feature>
+<feature id="com.adobe.flexide.feature" url="features/com.adobe.flexide.feature_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="com.adobe.flexide.feature.nl1" url="features/com.adobe.flexide.feature.nl1_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="com.adobe.flexbuilder.feature.standalone.nl1" plugin-identifier="com.adobe.flexbuilder.standalone" url="features/com.adobe.flexbuilder.feature.standalone.nl1_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="com.adobe.flexbuilder.feature.core" plugin-identifier="com.adobe.flexbuilder.feature.core.brand" url="features/com.adobe.flexbuilder.feature.core_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.4.0.v20080610-9I96EhtEm-T_5LxIsybz-3MdGZmOA3uwv7Ka_M/" version="3.4.0.v20080610-9I96EhtEm-T_5LxIsybz-3MdGZmOA3uwv7Ka_M">
+</feature>
+<feature id="com.adobe.flexbuilder.feature.standalone" plugin-identifier="com.adobe.flexbuilder.standalone" url="features/com.adobe.flexbuilder.feature.standalone_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.4.0.v20080324a-989JERhEk-jWnd5IY8K5tjxB/" version="3.4.0.v20080324a-989JERhEk-jWnd5IY8K5tjxB">
+</feature>
+<feature id="com.adobe.flexide.utils.feature" url="features/com.adobe.flexide.utils.feature_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.1.0.v20080603-7C79E8M9EI99m9c9S/" version="1.1.0.v20080603-7C79E8M9EI99m9c9S">
+</feature>
+<feature id="com.adobe.flexbuilder.feature.core.nl1" plugin-identifier="com.adobe.flexbuilder.feature.core.brand" url="features/com.adobe.flexbuilder.feature.core.nl1_4.0.0.253292/" version="4.0.0.253292">
+</feature>
+</site>
+</config>
